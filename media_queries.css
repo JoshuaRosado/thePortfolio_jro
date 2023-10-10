@@ -1,7 +1,7 @@
 @media (orientation: landscape) and (max-height: 450px) and (max-width: 844px) {
     .page_1{
         height: 100vh;
-        background: linear-gradient(to left, rgba(0, 0, 0, .2) 10rem, rgba(0, 0, 0, 0.3)), url(../imgs/bg_pics/pr_beach.jpeg);
+        background: linear-gradient(to left, rgba(0, 0, 0, .2) 10rem, rgba(0, 0, 0, 0.3)), url(./imgs/bg_pics/pr_beach.jpeg);
         object-fit: cover;
         background-position: 100%;
         background-size: cover;

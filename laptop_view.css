@@ -181,7 +181,7 @@ section{
         inset -1px -1px 5px rgba(234, 222, 222, 0.2),
         inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
         /* background-color: rgba(0, 0, 0, 0.211); */
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../imgs/bg_pics/swiss.jpg);
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/swiss.jpg);
         background-attachment:fixed;
         background-position: 0%;
         background-size: 100%;
