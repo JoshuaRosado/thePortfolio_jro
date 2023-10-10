@@ -31,7 +31,7 @@ let video = document.querySelector('.video');
             console.log(scrollpos, delay);
             
             video.currentTime = delay;
-        },90.3)
+        },50.3)
 }}
 
 var x = window.matchMedia("(min-width: 850px)")
