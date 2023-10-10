@@ -1,0 +1,558 @@
+@media screen and (min-device-width: 850px){
+    #home_btn{
+        display: none;
+    }
+
+.extra_info_toggle_label{
+    cursor: pointer;
+}
+
+.intro video,.intro {
+        display: block;
+    }
+
+.intro{
+    height: 100vh;
+    background-color: black;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.intro h1{
+    position: relative;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+
+}
+section{
+    height: 100vh;
+}
+
+    header{
+        background: rgba(45, 66, 14, 0);
+        position: absolute;
+    }
+
+    nav {
+        all: unset;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav a {
+        opacity: 1;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    nav a::before{
+        content: " ";
+        display: block;
+        height: .2rem;
+        background: rgba(255, 255, 255, 0.801);
+        position: relative;
+        box-shadow: 1px 35px 10px rgb(0, 0, 0);
+        border-radius: 5rem;
+        top: -.20rem;
+        left: 0;
+        right: 0;
+        transform: scale(0,1);
+        transform-origin: center;
+        transition: transform ease-in-out 300ms;
+    }
+    
+    nav a:hover::before{
+        transform: scale(1,1);
+        box-shadow: 1px 35px 10px rgb(0, 0, 0);
+    }
+
+    nav a:hover{
+        color: rgba(176, 214, 118, .990);
+    }
+    
+    .nav_links{
+        display:flex;
+        justify-content: space-evenly;
+        min-width: 35rem;
+        align-items: center;
+        margin-right: 0rem;
+        height: 4rem;
+        
+    }
+
+    .page_1{
+        all:unset;
+        display: none;
+    }
+
+    header{
+        display: flex;
+    }
+    .personal_logo{
+        display: none;
+    }
+    .personal_logo2{
+
+        display: block;
+        margin: .5rem -5rem 0rem 0rem;
+        border-radius: 0%;
+        height: 4rem;
+        width: 3rem;
+        opacity: 50%;
+        position: fixed;
+        bottom: .5rem;
+        right: 7rem;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
+
+    .personal_logo2:hover{
+        opacity: 1;
+        height: 10rem;
+        width:7rem ;
+        border: 5px solid rgba(255, 255, 255, 0.303);
+        transition: 1s ease-in-out;
+        box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
+        15px 10px 10px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 55px 40px 10px rgba(0, 0, 0, 0.5);
+    }
+    #center_name{
+        display: block;
+        position: absolute;
+        top: 50.5%;
+        left:35%;
+        transform: translate(-50px, -50px);
+        font-size: 3.5rem;
+        color: white;
+        text-shadow: 2px 1px 4px rgba(255, 255, 255, 0.835);
+        animation: light 4s linear 100ms;
+        }
+        
+        #center_name2{
+        display: block;
+        position: absolute;
+        top: 58%;
+        left: 43%;
+        transform: translate(-50px,-50px);
+        background-color: rgba(195, 193, 191, 0.143);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 2rem;
+        height: 6rem;
+        padding: .5rem 4rem 0rem;
+        font-size: 4rem;
+        text-shadow: none;
+        color: rgba(176, 214, 118, 0.800);
+        }
+
+    .blank_page_container{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        /* align-items: end; */
+        height:25rem;
+    }
+    
+    .blank_page{
+        height: 5rem;
+        min-width: 15rem;
+        margin: 0rem 0rem 3rem;
+        border-radius: 20rem;
+        border: 10px solid rgb(246, 243, 237);
+        box-shadow: 15px 15px 70px 1px rgba(0, 0, 0, 0.306),
+        2px 3px 2px 2px rgba(255, 255, 255, 0.258),
+        inset -1px -1px 5px rgba(234, 222, 222, 0.2),
+        inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
+        /* background-color: rgba(0, 0, 0, 0.211); */
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../imgs/bg_pics/swiss.jpg);
+        background-attachment:fixed;
+        background-position: 0%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    
+    .blankP_1{
+        min-width: 30rem;
+    }
+    .blank_page_center{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .blankP_center{
+        
+        width: 30rem;
+        height: 6rem;
+    }
+    
+    .blank_page_left{
+        align-items: start;
+    }
+    .blank_page_right{
+        align-items: end;
+    
+    }
+
+    /* =============== ABOUT =============== */
+    .about_section{
+        height: 100vh;
+        margin: 0rem .5rem;
+    }
+    /* #about_1{
+        width: 32.5rem;
+    } */
+    .more_about_me{
+        width: 35.5rem;
+        height: 5rem;
+        padding: 1rem;
+        transition: 1s ease-in-out;
+
+
+    }
+    .extra_info_toggle:checked ~ .more_about_me{
+        height: 43rem;
+        transition: height 1s ease-in-out;
+        animation: box_shadow 1.4s linear ;
+        height: 50rem;
+    }
+    @keyframes box_shadow {
+        0%{box-shadow: none;}
+        50%{box-shadow: 2px 3px 20px 3px rgba(255, 255, 255, 0.724), 
+            3px 2px 20px 3px white; background-color: rgba(255, 255, 255, 0.036);}
+        100%{box-shadow: none;}
+        
+    }
+    .about_paragraph{
+        background-color: white;
+    }
+    .container_about{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about_info{
+        height: 40rem;
+        width: 35rem;
+    }
+    .about_img{
+        min-width: 10rem;
+    }
+    .profile_pic{
+        height: 30rem;
+        width: 30rem;
+        padding: 3rem;
+        margin-bottom: 6rem;
+        border-radius:50% 290% 400%;
+        object-fit: cover;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 5px 5px rgba(0, 0, 0, 0.275);
+    }
+
+
+
+
+
+
+
+    .about_name{
+        font-size: 4rem;
+        color: white;
+        text-shadow: 3px 3px 2px rgba(193, 190, 190, 0.416);
+    }
+    .last_name{
+        color: rgb(246, 243, 237);
+        font-size: 1.6rem;
+    }
+    .about_title{
+        color: rgb(246, 243, 237);
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    }
+    /* ======================================== */
+    /* =========== TECHNOLOGIES ================= */
+    .page_3{
+        all: unset;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.114);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .technologies_title{
+        margin: 5rem;
+        font-size: 3rem;
+
+    }
+    .row{
+        margin: 0}
+
+    .tech_container{
+        all: unset;
+        margin-top: 0;
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        height: 5rem;
+        margin: 1rem;
+        border: 6px solid rgb(246, 243, 237);
+        padding: .1rem;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 5px 5px rgba(0, 0, 0, 0.385);
+        transition: 200ms ease-in-out;    
+    }
+
+    .logo:hover{
+        transition: 300ms ease-in-out;
+        box-shadow: none;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        1px 1px 5px rgba(0, 0, 0, 0.305);
+        cursor: pointer;
+
+    }
+
+    /* ============================================= */
+    /* ============ PROJECTS ================== */
+    .page_4{
+        height: 100vh;
+        background-color: rgb(246, 243, 237);
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items: center;
+    }
+    .projects_area{
+        display: flex;
+        /* margin-right: 5rem; */
+        border: 10px solid rgb(246, 243, 237);
+        height: 35rem;
+        width: 35rem;
+        overflow-x: auto;
+        border-radius: 50%;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.109);
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 25px 10px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 15px 25px 15px rgba(0, 0, 0, 0.5);
+        scroll-snap-type: both mandatory;
+        overflow-y: hidden;
+        transition: .5s ease-in-out;
+    }
+
+    .projects_area:hover{
+        cursor:pointer;
+        transition: .5s ease-in-out;
+        background: white;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 25px 10px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 15px 25px 15px rgba(0, 0, 0, 0.5);
+
+    }
+    .each_project{
+        height: 35rem;
+        width: 35rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 15rem;
+        border-radius: 50%;
+        margin: 0rem 10rem;
+        scroll-snap-align: start;
+    }
+    .projects_title{
+        display: none;
+
+    
+    }
+    .projects_title2{
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 3rem;
+        filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+        
+    }
+    .projectName{
+        font-size: 3rem;
+
+    }
+    .project_info_p{
+        font-size: 1rem;
+    }
+    .project_selection_a{
+        font-size: 1.2rem;
+    }
+    .project_selection{
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    .project_img{
+        margin-right: 2rem;
+        height: 15rem;
+        width: 15rem;
+    }
+    .swipe_indicator{
+        font-size: 1rem;
+        animation: swipe 5s linear infinite;
+    }
+
+    @keyframes swipe {
+        0%{color: rgba(246, 243, 237, 0.658);margin-right: 2rem;}
+        50%{color: rgba(0, 0, 0, 0.386); margin-left: 4rem;}
+        100%{color: rgba(246, 243, 237, 0.575);margin-right: 2rem;}
+        
+    }
+
+    /* ============================================= */
+    /* ================== CONTACT ====================== */
+    .contact_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contactLogos{
+        all: unset;
+        margin: 1.2rem 1.5rem 0rem;    
+        height: 4.5rem;
+        border-radius: 50%;
+        border: 10px solid rgb(246, 243, 237);
+        padding: .7rem;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 5px 5px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+        transition: .5s ease-in-out;
+    }
+
+    .contact_title{
+        padding: 3rem 0rem 10rem;
+        font-size: 3rem;
+    }
+    .contact_options{
+        display:block;
+        margin: 0rem 0rem 25rem;
+    }
+    .contactLogos:hover{
+        transition: .4s ease-in-out;
+        box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.800),
+        15px 10px 10px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 55px 40px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* ============================================= */
+
+
+    .nav_toggle_label{
+        display: none;
+    }
+    .name_logo{display: none;}
+
+    @keyframes light {
+        0%{color: rgba(246, 239, 239, 0); text-shadow: 2px 1px 2px rgb(21, 21, 21);}
+        65%{color: rgba(255, 255, 255, 0.231); text-shadow: 4px 1px 6px rgba(255, 255, 255, 0.439);}
+        70%{color: white;text-shadow: 5px 1px 10px rgba(255, 255, 255, 0.835);}
+        72%{color: rgba(255, 255, 255, 0);text-shadow: 0px 1px 10px rgba(255, 255, 255, 0.035);}
+        74%{color: rgba(255, 255, 255, 0.622);text-shadow: 3px 1px 12px rgba(255, 255, 255, 0.835);}
+        76%{color: rgba(255, 255, 255, 0);text-shadow: 2px 1px 10px rgba(255, 255, 255, 0);}
+        78%{color: rgba(255, 255, 255, 0.536);text-shadow: 4px 1px 4px rgba(255, 255, 255, 0.835);}
+        80%{color: rgba(255, 255, 255, 0);text-shadow: 2px 1px 4px rgba(255, 255, 255, 0);}
+        100%{color: rgba(255, 255, 255, 0.728);text-shadow: 3px 1px 4px rgb(255, 255, 255);}
+        
+    }
+
+
+
+
+    
+}
+
+@media screen and (min-width: 992px){
+    .page_4{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .projects_area{
+        height: 40rem;
+        width: 40rem;
+    }
+    .each_project{
+        width: 40rem;
+        height: 40rem;
+    }
+    .projects_title2{
+        margin-right: 5rem;
+    }
+    .contactLogos{
+        height: 5.4rem;
+        margin: 0rem 3rem
+    }
+    .logo{
+        height: 5.1rem;
+        margin: 1.2rem;
+    }
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1290px) and (min-device-height: 1000px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) 
+{
+    .blank_page{
+        height: 5rem;
+        min-width: 20rem;
+        margin: 2rem 0rem 3rem;
+        border-radius: 20rem;
+        border: 10px solid rgb(246, 243, 237);
+        box-shadow: 15px 15px 2000px 1px rgba(0, 0, 0, 0.316),
+        2px 3px 2px 2px rgba(255, 255, 255, 0.258),
+        inset -1px -1px 5px rgba(234, 222, 222, 0.2),
+        inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
+        background: rgb(246, 243, 237);
+    }
+    .blankP_1{
+        min-width: 30rem;
+    }
+    .page_1{
+        height: 100vh;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.7)), url(./imgs/bg_pics/el_morro.jpeg);
+        background-size:cover;
+        background-blend-mode:multiply;
+        background-position: 70%;
+        background-repeat: no-repeat;
+        scroll-snap-align: always;
+    }
+} 
