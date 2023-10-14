@@ -1,3 +1,4 @@
+/* =================== LANDSCAPE VIEW CSS ================== */
 @media (orientation: landscape) and (max-height: 450px) and (max-width: 844px) {
     .page_1{
         height: 100vh;

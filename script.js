@@ -1,4 +1,5 @@
 // ========= PAGE 1 BG SCROLL ANIMATION =======
+// ========= WHEN SCROLL ON PAGE 1 VIDEO PLAYS BY SECTIONS =========
 
 function myFunction(x) {
 if (x.matches) { let intro = document.querySelector('.intro');
@@ -42,6 +43,7 @@ x.addListener(myFunction)
 
 
 // ======= PAGE SCROLL INTO EFFECT =======
+// ======= NAV DIRECTORY(WHEN CLICKING NAV LINK, TRIGGERS THE AUTOMATIC SCROLL TO THAT SPECIFIC SECTION (OR DIV)) ========
 
 
     function scrollHome(){
