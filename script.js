@@ -19,7 +19,7 @@ let video = document.querySelector('.video');
         
         let accelamount = 0.1;
         let scrollpos = 0;
-        let delay = 3;
+        let delay = 4;
         
         scene.on('update', e => {
             scrollpos = e.scrollPos / 1000;
@@ -29,15 +29,16 @@ let video = document.querySelector('.video');
         
         setInterval(() => {
               delay += (scrollpos - delay) * accelamount;
-            console.log(scrollpos, delay);
             
             video.currentTime = delay;
-        },50.3)
+        },50.5)
 }}
 
 var x = window.matchMedia("(min-width: 850px)")
 myFunction(x) 
-x.addListener(myFunction)
+x.addEventListener(myFunction)
+
+
 
 
 
