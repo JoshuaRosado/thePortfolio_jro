@@ -1,4 +1,11 @@
 @media screen and (min-device-width: 850px){
+
+    html{
+        overflow-x: hidden!important;
+    }
+    body{
+        overflow-x: hidden;
+    }
     #home_btn{
         display: none;
     }
