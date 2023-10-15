@@ -1,6 +1,7 @@
 @media screen and (min-device-width: 850px){
 
     html, body{
+        all: unset;
         z-index: 0 !important;
         overflow-x: scroll!important;
         touch-action: none;
