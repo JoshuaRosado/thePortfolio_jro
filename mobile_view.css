@@ -36,7 +36,7 @@ body{
 .page_1{
     height: 100vh;
     background: rgb(246, 243, 237);
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-jess-loiterton-8651507.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-kammeran-gonzalezkeola-6128156.jpg);
     object-fit: cover;
     background-position: 100%;
     background-size: cover;
