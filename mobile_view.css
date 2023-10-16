@@ -36,7 +36,7 @@ body{
 .page_1{
     height: 100vh;
     background: rgb(246, 243, 237);
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/sand_sunset.jpeg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-manga-verde-6413633.jpg);
     object-fit: cover;
     background-position: 100%;
     background-size: cover;
@@ -54,11 +54,12 @@ body{
 
 .personal_logo{
     border-radius: 50%;
+    opacity: 90%;
     object-fit:cover;
     height: 20rem;
     width: 20rem;
     padding: 2rem;
-    animation: logo 3s linear 200ms;
+    animation: logo 3s linear -300ms;
     border: 20px solid rgba(246, 243, 237, 0.16);
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
     8px 5px 5px rgba(0, 0, 0, 0.405),
@@ -70,9 +71,9 @@ body{
 }
 
 @keyframes logo {
-    0%{transform: scale(0,0); opacity: 0;}
-    50%{transform: scale(1,1); opacity: 50%;}
-    100%{transform: scale(1,1); opacity: 1;}
+    0%{transform: translateY(-35rem); opacity: 0;}
+    50%{transform: translateY(-5rem); opacity: 50%;}
+    100%{transform: translateY(0rem); opacity: 90%;}
     
     
 }

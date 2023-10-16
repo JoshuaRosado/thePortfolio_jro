@@ -8,16 +8,14 @@
     cursor: pointer;
 }
 
-.intro video,.intro {
-        display: block;
-    }
+
 
 .intro{
-    height: 100vh;
-    background-color: black;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-
+        height: 100vh;
+        background: linear-gradient(to left, rgba(0, 0, 0, .6) 10rem, rgba(0, 0, 0, 0.4)), url(./imgs/bg_pics/pexels-kammeran-gonzalezkeola-7925817.jpg);
+        background-attachment: fixed;
+        background-position: 100%;
+        background-size: cover;
 }
 
 
@@ -79,7 +77,7 @@ section{
     
     nav a:hover::before{
         transform: scale(1,1);
-        box-shadow: 1px 35px 10px rgb(0, 0, 0);
+        box-shadow: 1px 35px 10px rgb(255, 255, 255);
     }
 
     nav a:hover{
@@ -91,7 +89,7 @@ section{
         justify-content: space-evenly;
         min-width: 35rem;
         align-items: center;
-        margin-right: 0rem;
+        margin-right: 2rem;
         height: 4rem;
         
     }
@@ -136,8 +134,8 @@ section{
     #center_name{
         display: block;
         position: absolute;
-        top: 50.5%;
-        left:35%;
+        top: 54%;
+        left:20%;
         transform: translate(-50px, -50px);
         font-size: 3.5rem;
         color: white;
@@ -148,8 +146,8 @@ section{
         #center_name2{
         display: block;
         position: absolute;
-        top: 58%;
-        left: 43%;
+        top: 62%;
+        left: 25%;
         transform: translate(-50px,-50px);
         background-color: rgba(195, 193, 191, 0.143);
         backdrop-filter: blur(10px);
@@ -181,8 +179,7 @@ section{
         2px 3px 2px 2px rgba(255, 255, 255, 0.258),
         inset -1px -1px 5px rgba(234, 222, 222, 0.2),
         inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
-        /* background-color: rgba(0, 0, 0, 0.211); */
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/swiss.jpg);
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-kammeran-gonzalezkeola-7925817.jpg);
         background-attachment:fixed;
         background-position: 0%;
         background-size: 100%;
