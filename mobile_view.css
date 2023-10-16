@@ -36,7 +36,7 @@ body{
 .page_1{
     height: 100vh;
     background: rgb(246, 243, 237);
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-manga-verde-6413633.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-jess-loiterton-8651507.jpg);
     object-fit: cover;
     background-position: 100%;
     background-size: cover;
@@ -100,7 +100,7 @@ body{
 /* ================================== NAV ================================ */
 
 header{
-    background-color: rgba(177, 219, 114, 0.9);
+    background-color: rgba(0, 0, 0, 0.761);
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -123,7 +123,7 @@ header{
     display: none;
 }
 nav{
-    background-color: rgba(176, 214, 118, .990);
+    background-color: rgba(0, 0, 0, 0.761);
     position: absolute;
     text-align: left;
     top: 100%;
@@ -159,7 +159,7 @@ nav a {
 }
 
 nav a:hover{
-    color: black;
+    color: rgba(176, 214, 118, .990);
     font-weight: 600;
     transition: 300ms ease-in-out;
 }
