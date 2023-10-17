@@ -1,5 +1,20 @@
 @media screen and (min-device-width: 850px){
 
+/* ========= REVEAL ANIMATION ======== */
+.reveal_anim{
+    opacity: 0;
+    transition: all 1.5s ease-in-out 200ms;
+    /* transform: translate(-70rem); */
+}
+
+.show{
+    opacity: 1;
+    /* transform: translate(0rem); */
+}
+
+
+/* ===================================== */
+
     #home_btn{
         display: none;
     }
@@ -217,23 +232,52 @@ section{
         height: 100vh;
         margin: 0rem .5rem;
     }
-    /* #about_1{
-        width: 32.5rem;
-    } */
+
     .more_about_me{
         width: 35.5rem;
         height: 5rem;
         padding: 1rem;
+        position: absolute;
+        top: 30rem;
         transition: 1s ease-in-out;
 
 
     }
     .extra_info_toggle:checked ~ .more_about_me{
         height: 43rem;
+        position: absolute;
+        top: 55rem;
         transition: height 1s ease-in-out;
         animation: box_shadow 1.4s linear ;
         height: 50rem;
     }
+    .more_about_me .about_paragraph, .more_about_me .about_title{
+        opacity: 0;
+        transition: 1s ease-in-out 200ms;
+    }
+    .extra_info_toggle:checked ~.more_about_me .about_paragraph, .more_about_me .about_title{
+        opacity: 1;
+    }
+    .extra_info_toggle_label::after{
+        content: "x";
+        font-size: 3rem;
+        position: absolute;
+        top: 101rem;
+        left: 58rem;
+        animation: close_symbol 6s linear infinite;
+
+    }
+    @keyframes close_symbol {
+        0%{ color: rgba(0, 0, 0, 0.99);text-shadow: 1px 1px 5px black;;}
+        25%{color: rgba(0, 0, 0, 0.154);text-shadow: 1px 1px 4px white;}
+        50%{color: rgba(214, 118, 118, 0.99);}
+        75%{color: rgba(219, 114, 114, 0.9);}
+        85%{color: rgba(146, 66, 66, 0.6);}
+        100%{ color: rgb(0, 0, 0); text-shadow: 1px 1px 5px black; }
+        
+    }
+
+
     @keyframes box_shadow {
         0%{box-shadow: none;}
         50%{box-shadow: 2px 3px 20px 3px rgba(255, 255, 255, 0.724), 

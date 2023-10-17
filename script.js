@@ -22,3 +22,19 @@ function scrollContact(){
     contact = document.getElementById('contact').scrollIntoView(); 
 }
 
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if(entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+        
+    });
+})
+
+
+const revealAnimElements = document.querySelectorAll('.reveal_anim');
+revealAnimElements.forEach((el) => observer.observe(el));
