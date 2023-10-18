@@ -27,7 +27,7 @@ body{
 /* ========= REVEAL ANIMATION ======== */
 .reveal_anim{
     opacity: 0;
-    transition: all 1.5s ease-in-out 200ms;
+    transition: all .5s ease-in-out 300ms;
     /* transform: translate(-70rem); */
 }
 
