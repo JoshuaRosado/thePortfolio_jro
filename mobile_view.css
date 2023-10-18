@@ -276,6 +276,7 @@ nav a:hover{
     opacity: 1;
     z-index: 3;
     position: absolute;
+    padding: 1rem 0rem 3.5rem;
     top: 72rem;
     background-color: rgba(159, 155, 155, 0.153);
     backdrop-filter: blur(10px);
@@ -316,7 +317,7 @@ nav a:hover{
     position: relative;
     z-index: 10;
     left: 0rem;
-    top: 3rem;
+    top: 2.1rem;
     display: none;
     animation: dropdown_symbol .6s linear;
     height: 4rem;
