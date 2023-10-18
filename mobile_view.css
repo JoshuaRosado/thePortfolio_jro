@@ -316,7 +316,7 @@ nav a:hover{
     position: relative;
     z-index: 10;
     left: 0rem;
-    top: 5rem;
+    top: 3rem;
     display: none;
     animation: dropdown_symbol .6s linear;
     height: 4rem;

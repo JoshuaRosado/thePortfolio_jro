@@ -29,11 +29,24 @@
     }
 
     .more_about_me{
-        position: relative;
+        position: absolute;
         top: 90rem;
-        left: 8.8rem;
+        left: 8rem;
         width: 32rem;
 
+    }
+    .extra_info_toggle:checked ~ .more_about_me{
+        position: relative;
+        top: -48rem;
+        padding-bottom: 4rem;
+        padding-top: .1rem;
+
+    }
+
+    .extra_info_toggle_label::after{
+        position: absolute;
+        top: 85rem;
+        left: 22rem;
     }
     
     .name_logo{
