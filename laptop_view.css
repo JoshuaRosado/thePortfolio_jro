@@ -13,44 +13,35 @@
 
 
 .intro{
-        height: 100vh;
-        background: linear-gradient(to left, rgba(0, 0, 0, .6) 10rem, rgba(0, 0, 0, 0.4)), url(./imgs/bg_pics/pexels-kammeran-gonzalezkeola-7925817.jpg);
-        background-attachment: fixed;
-        background-position: 100%;
-        background-size: cover;
-}
-
-
-.intro video{
-    height: 100%;
     width: 100%;
-    object-fit: cover;
-    filter: brightness(50%);
-}
-
-.intro h1{
-    position: relative;
-    z-index: 5;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4rem;
-    color: white;
-
-}
-section{
     height: 100vh;
 }
+
+.intro video{
+    all: unset;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+
+}
+
+
+
 
     header{
         background: rgba(45, 66, 14, 0);
         position: absolute;
     }
 
+
     nav {
         all: unset;
         display: flex;
-        justify-content:center;
+        justify-content:space-around;
         text-align: center;
         width: 100%;
     }
@@ -89,9 +80,9 @@ section{
     .nav_links{
         display:flex;
         justify-content: space-evenly;
-        min-width: 35rem;
+        min-width: 50rem;
         align-items: center;
-        margin-right: 0rem;
+        margin-right: 3rem;
         height: 4rem;
         
     }
@@ -136,8 +127,8 @@ section{
     #center_name{
         display: block;
         position: absolute;
-        top: 68%;
-        left:20%;
+        top: 50%;
+        left:14%;
         transform: translate(-50px, -50px);
         font-size: 3.5rem;
         color: white;
@@ -148,8 +139,8 @@ section{
         #center_name2{
         display: block;
         position: absolute;
-        top:76%;
-        left: 25%;
+        top:58%;
+        left: 13%;
         transform: translate(-50px,-50px);
         background-color: rgba(195, 193, 191, 0.143);
         backdrop-filter: blur(10px);
