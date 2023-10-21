@@ -1,7 +1,6 @@
 @media screen and (min-device-width: 850px){
 
 
-
     #home_btn{
         display: none;
     }
@@ -12,17 +11,25 @@
 
 
 
+
 .intro{
     width: 100%;
     height: 100vh;
+    z-index: -100;
+}
+
+.page_1, .about_section, #technologies, .page_4, .page_5{
+    z-index: 1;
+    background-color: rgb(246, 243, 237);
 }
 
 .intro video{
     all: unset;
-    position:absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 5;
     height: 100%;
     object-fit: cover;
     filter: brightness(40%);
@@ -101,6 +108,7 @@
     .personal_logo2{
 
         display: block;
+        z-index: 6;
         margin: .5rem -5rem 0rem 0rem;
         border-radius: 0%;
         height: 4rem;
@@ -126,6 +134,7 @@
     }
     #center_name{
         display: block;
+        z-index: 6;
         position: absolute;
         top: 50%;
         left:14%;
@@ -138,6 +147,7 @@
         
         #center_name2{
         display: block;
+        z-index: 6;
         position: absolute;
         top:58%;
         left: 13%;
@@ -172,13 +182,13 @@
         2px 3px 2px 2px rgba(255, 255, 255, 0.258),
         inset -1px -1px 5px rgba(234, 222, 222, 0.2),
         inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
+        background-color: rgba(240, 248, 255, 0);
 
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/under_w.jpg);
-        z-index: 999;
-        background-attachment:fixed;
+        /* background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/under_w.jpg); */
+        /* background-attachment:fixed;
         background-position: center;
-        background-size: 180vh;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat; */
         
     }
     
