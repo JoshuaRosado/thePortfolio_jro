@@ -174,10 +174,10 @@
         inset 10px 10px 15px rgba(0, 0, 0, 0.884); 
 
         background: linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/under_w.jpg);
-        z-index: -10;
+        z-index: 999;
         background-attachment:fixed;
         background-position: center;
-        background-size: cover;
+        background-size: 180vh;
         background-repeat: no-repeat;
         
     }
