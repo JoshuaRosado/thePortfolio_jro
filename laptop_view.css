@@ -15,21 +15,25 @@
 .intro{
     width: 100%;
     height: 100vh;
-    z-index: -100;
+    z-index: 0;
 }
 
-.page_1, .about_section, #technologies, .page_4, .page_5{
-    z-index: 1;
+.page_1, .about_section, #technologies, .page_4,.page_5{
+    z-index: 10;
     background-color: rgb(246, 243, 237);
 }
+
+
+
 
 .intro video{
     all: unset;
     position: fixed;
+    overflow: hidden;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 5;
+    z-index: -10;
     height: 100%;
     object-fit: cover;
     filter: brightness(40%);
@@ -167,8 +171,9 @@
         margin-top: 0rem;
         display: flex;
         flex-direction: column;
+        z-index: 0;
         justify-content:center;
-        /* align-items: end; */
+        background-color: rgb(246, 243, 237);
         height:25rem;
     }
     
@@ -292,11 +297,6 @@
         box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
         8px 5px 5px rgba(0, 0, 0, 0.275);
     }
-
-
-
-
-
 
 
     .about_name{
