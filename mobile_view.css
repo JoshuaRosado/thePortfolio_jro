@@ -470,7 +470,8 @@ nav a:hover{
 
 /* ======================== PROJECTS SECTION ================== */
 .page_4{
-    height: 75rem
+    height: 75rem;
+    border: 1px solid rgba(255, 0, 0, 0);
 
 }
 
@@ -506,7 +507,7 @@ nav a:hover{
 
 .projects_title{
     margin-top: 6rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-size: 2.5rem;
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
