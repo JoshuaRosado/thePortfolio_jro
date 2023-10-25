@@ -72,9 +72,9 @@ body{
     border-radius: 50%;
     opacity: 90%;
     object-fit:cover;
-    height: 20rem;
-    width: 20rem;
-    padding: 2rem;
+    height: 22rem;
+    width: 22rem;
+    padding: 1rem;
     animation: logo 3s linear -300ms;
     border: 20px solid rgba(246, 243, 237, 0.16);
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
