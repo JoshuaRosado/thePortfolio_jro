@@ -44,9 +44,13 @@
 
 
     header{
-        background: rgba(45, 66, 14, 0);
+        background: rgba(45, 66, 14, 0.067);
+        backdrop-filter: blur(10px);
+        border-bottom: 4px solid rgba(246, 243, 237, 0.12);
         position: absolute;
-        margin: 0rem 3rem;
+        display: flex;
+        height: 4rem;
+        align-items: center;
     }
 
 
@@ -57,11 +61,11 @@
         text-align: center;
         width: 100%;
     }
-
+    
     nav a {
         opacity: 1;
         text-align: center;
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
     nav a::before{
@@ -84,19 +88,27 @@
         transform: scale(1,1);
         box-shadow: 1px 35px 10px rgb(255, 255, 255);
     }
-
+    
     nav a:hover{
         color: rgba(176, 214, 118, .990);
     }
     
     .nav_links{
         display:flex;
-        justify-content: space-evenly;
-        min-width: 50rem;
+        justify-content: space-between;
+        min-width: 40rem;
         align-items: center;
         margin: .5rem 3rem;
         height: 4rem;
         
+    }
+    .personal_written_logo{
+        display: flex;
+        font-family: 'League Spartan', sans-serif;
+        align-items: center;
+        margin: .5rem 3rem;
+        font-weight: 900;
+        color: white;
     }
 
     .page_1{
@@ -111,28 +123,34 @@
         display: none;
     }
     .personal_logo2{
-
+        position: fixed;
+        top: 44rem;
+        left: 72rem;
         display: block;
         object-fit: cover;
+        opacity: 50%;
         z-index: 6;
         margin: .5rem -5rem 0rem 0rem;
-        border-radius: 1rem;
+        border-radius: 3rem;
         border: .5rem solid rgba(255, 255, 255, 0.364);
-        padding: .5rem;
-        height: 6rem;
-        width: 6rem;
+        padding: .3rem;
+        height: 5rem;
+        width: 5rem;
         cursor: pointer;
         transition: 1s ease-in-out;
     }
 
 
     .personal_logo2:hover{
-        opacity: 1;
-        height: 12rem;
+        opacity: 90%;
+        position: fixed;
+        left: 65rem;
+        top: 37rem;
+        height: 13rem;
         padding: .5rem;
         transform: rotate(360deg);
-        border-radius: 6rem;
-        width:12rem ;
+        border-radius: 7rem;
+        width:13rem ;
         border: .5rem solid rgba(176, 214, 118, .290);
         transition: 1s ease-in-out;
         box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
@@ -145,8 +163,8 @@
         display: block;
         z-index: 6;
         position: absolute;
-        top: 50%;
-        left:14%;
+        top: 40%;
+        left:15%;
         transform: translate(-50px, -50px);
         font-size: 3.5rem;
         color: white;
@@ -158,16 +176,16 @@
         display: block;
         z-index: 6;
         position: absolute;
-        top:58%;
-        left: 13%;
+        top:48.5%;
+        left: 15%;
         transform: translate(-50px,-50px);
         background-color: rgba(195, 193, 191, 0.143);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 2rem;
-        height: 6rem;
+        height: 5rem;
         padding: .5rem 4rem 0rem;
-        font-size: 4rem;
+        font-size: 3rem;
         text-shadow: none;
         color: rgba(176, 214, 118, 0.800);
         }
