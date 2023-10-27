@@ -40,85 +40,68 @@
 
 }
 
-
-
-
     header{
-        background: rgba(45, 66, 14, 0.067);
-        backdrop-filter: blur(10px);
-        border-bottom: 4px solid rgba(246, 243, 237, 0.12);
-        position: absolute;
-        display: flex;
-        height: 4rem;
-        align-items: center;
-    }
-
-
-    nav {
-        all: unset;
-        display: flex;
-        justify-content:space-around;
-        text-align: center;
-        width: 100%;
+        display: none;
     }
     
-    nav a {
-        opacity: 1;
-        text-align: center;
-        font-size: .9rem;
-    }
-    
-    nav a::before{
-        content: " ";
+    .laptop_nav::before{
         display: block;
+        content: " ";
+        position: absolute;
+        top: -1rem;
+        right: -4.5rem;
         height: .2rem;
         background: rgba(255, 255, 255, 0.801);
-        position: relative;
         box-shadow: 1px 35px 10px rgb(0, 0, 0);
         border-radius: 5rem;
-        top: -.20rem;
-        left: 0;
-        right: 0;
         transform: scale(0,1);
         transform-origin: center;
         transition: transform ease-in-out 300ms;
     }
     
-    nav a:hover::before{
+    .laptop_nav:hover::before{
         transform: scale(1,1);
         box-shadow: 1px 35px 10px rgb(255, 255, 255);
     }
     
-    nav a:hover{
+    .laptop_nav:hover{
         color: rgba(176, 214, 118, .990);
+        transition: 1s ease-in-out;
     }
+
+    .laptop_nav{
+        transition: 1s ease-in-out;
+        color: rgb(246, 243, 237,.750);
+        font-size: 1.1rem;
+    }
+
     
     .nav_links{
+        cursor: pointer;
         display:flex;
-        justify-content: space-between;
-        min-width: 40rem;
+        justify-content: center;
+        width: 28rem;
         align-items: center;
-        margin: .5rem 3rem;
         height: 4rem;
-        
+        /* border: 2px solid red; */
     }
-    .personal_written_logo{
+    #about_btn{
+        display: flex;
+    }
+    /* .personal_written_logo{
         display: flex;
         font-family: 'League Spartan', sans-serif;
         align-items: center;
         margin: .5rem 3rem;
         font-weight: 900;
         color: white;
-    }
+    } */
 
     .page_1{
         all:unset;
         display: none;
     }
 
-    header{
-        display: flex;
-    }
     .personal_logo{
         display: none;
     }
@@ -139,18 +122,47 @@
         cursor: pointer;
         transition: 1s ease-in-out;
     }
+    .personal_logo_container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .personal_logo_container_center_row{
+        display: flex;
+        height: 70%;
+        width: 70%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .personal_logo3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        opacity: 80%;
+        z-index: 6;
+        border-radius: 20rem;
+        border: 1rem solid rgba(255, 255, 255, 0.364);
+        padding: 1rem;
+        height: 35rem;
+        width: 35rem;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
 
 
-    .personal_logo2:hover{
+    .personal_logo3:hover{
         opacity: 90%;
-        position: fixed;
-        left: 65rem;
-        top: 37rem;
-        height: 13rem;
+        height: 30rem;
         padding: .5rem;
         transform: rotate(360deg);
         border-radius: 7rem;
-        width:13rem ;
+        width:30rem ;
         border: .5rem solid rgba(176, 214, 118, .290);
         transition: 1s ease-in-out;
         box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
@@ -159,36 +171,6 @@
         inset 55px 40px 10px rgba(0, 0, 0, 0.5);
     }
 
-    #center_name{
-        display: block;
-        z-index: 6;
-        position: absolute;
-        top: 40%;
-        left:15%;
-        transform: translate(-50px, -50px);
-        font-size: 3.5rem;
-        color: white;
-        text-shadow: 2px 1px 4px rgba(255, 255, 255, 0.835);
-        animation: light 4s linear 100ms;
-        }
-        
-        #center_name2{
-        display: block;
-        z-index: 6;
-        position: absolute;
-        top:48.5%;
-        left: 15%;
-        transform: translate(-50px,-50px);
-        background-color: rgba(195, 193, 191, 0.143);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 2rem;
-        height: 5rem;
-        padding: .5rem 4rem 0rem;
-        font-size: 3rem;
-        text-shadow: none;
-        color: rgba(176, 214, 118, 0.800);
-        }
 /* =================== GLASS WINDOWS =========================== */
         
         .glass_window{

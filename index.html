@@ -21,29 +21,34 @@
                 <h4 class="name_logo">Welcome</h4>
                 <input type="checkbox" id="nav_toggle" class="nav_toggle" >
                 <nav>
-                    <h3 class="personal_written_logo"> j > OSH </h3>
                     <ul class="nav_links">
-                        <li><a class="nav_link" id="home_btn" onclick="scrollHome()">Home</a></li>
-                        <li><a class="nav_link" onclick="scrollAbout()">About</a></li>
-                        <li><a class="nav_link" onclick="scrollTechnologies()">Technologies</a></li>
-                        <li><a class="nav_link" onclick="scrollProjects()">Projects</a></li>
-                        <li><a class="nav_link" onclick="scrollContact()">Contact</a></li>
+                        <li><a class="nav_link_home" id="home_btn" onclick="scrollHome()">Home</a></li>
+                        <li><a class="nav_link" id="about_btn" onclick="scrollAbout()">About</a></li>
+                        <li><a class="nav_link" id="technologies_btn" onclick="scrollTechnologies()">Technologies</a></li>
+                        <li><a class="nav_link" id="projects_btn" onclick="scrollProjects()">Projects</a></li>
+                        <li><a class="nav_link" id="contact_btn" onclick="scrollContact()">Contact</a></li>
                     </ul>
                 </nav>
                 <label for="nav_toggle" class="nav_toggle_label">
                     <span></span>
                 </label>
             </header>
+            <div class="personal_logo_container">
+                <a class="nav_links laptop_nav" id="about_btn" onclick="scrollAbout()"> About</a>
+                <div class="personal_logo_container_center_row">
+                    <a class="nav_links laptop_nav" id="technologies_btn"onclick="scrollTechnologies()">Technologies</a>
+                    <img src="./imgs/profile_pic/3.png" alt="personal_logo" class="personal_logo3">
+                    <a class="nav_links laptop_nav" onclick="scrollProject()">Projects</a>
+                </div>
+                <a class="nav_links laptop_nav" id="contact_btn" onclick="scrollContact()">Contact</a>
+            </div>
             <video muted preload="auto"
             autoplay="autoplay" autoplay play loop muted playsinline>
                 <source src="./imgs/bg_pics/pexels-taryn-elliott-6073475 (1080p).mp4" type="video/mp4" >
             </video>
-            <h1 id="center_name">Software</h1>
-            <h1 id="center_name2">Developer</h1>
         </div>
         <div class="page_1" id="home">
             <img src="./imgs/profile_pic/3.png" alt="personal_logo" class="personal_logo reveal_anim">
-            <img src="./imgs/profile_pic/3.png" alt="personal_logo" class="personal_logo2">
         </div>
         <div class="about_section" id="about">
             <div class="container container_about">
@@ -189,6 +194,7 @@
                     <a href="mailto: joshua06rosado@gmail.com" onmouseover="shadow()"><img src="./imgs/contact_logos/email.png" alt="email" class="contactLogos contactOption reveal_anim" ></a>
                     <a href="http://www.linkedin.com/in/joshua-rosado-olivencia"><img src="./imgs/contact_logos/linkedin-icon.png" alt="linkedIn" class="contactLogos contactOption reveal_anim" onmouseover="shadow(this)"></a>
                     <a href="https://github.com/JoshuaRosado"><img src="./imgs/contact_logos/github.webp" alt="github" class="contactLogos contactOption reveal_anim" onmouseover="shadow()"></a>
+                    <!-- <h3 class="personal_written_logo"> j > OSH </h3> -->
                 </div>
             </div>
         </div>
