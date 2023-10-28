@@ -44,35 +44,35 @@
         display: none;
     }
     
-    .laptop_nav::before{
-        display: block;
+    .laptop_nav_sides::before, .laptop_nav_upDown::before{
         content: " ";
         position: absolute;
-        top: -1rem;
-        right: -4.5rem;
-        height: .2rem;
-        background: rgba(255, 255, 255, 0.801);
-        box-shadow: 1px 35px 10px rgb(0, 0, 0);
-        border-radius: 5rem;
+        height: 2.5rem;
+        width: 9.5rem;
+        border: 5px solid rgba(255, 255, 255, 0.29);
+        box-shadow: 3px 50px 25px 1px rgba(0, 0, 0, 0.7);
+        border-radius: .4rem;
         transform: scale(0,1);
-        transform-origin: center;
-        transition: transform ease-in-out 300ms;
+        transform-origin: right;
+        transition: transform .5s ease-in-out 300ms;
     }
     
-    .laptop_nav:hover::before{
+    .laptop_nav_sides:hover::before, .laptop_nav_upDown:hover::before {
         transform: scale(1,1);
-        box-shadow: 1px 35px 10px rgb(255, 255, 255);
+        transform-origin: left;
+        backdrop-filter: blur(2px);
+        z-index: -1;
     }
     
-    .laptop_nav:hover{
+    .laptop_nav_sides:hover, .laptop_nav_upDown:hover{
         color: rgba(176, 214, 118, .990);
-        transition: 1s ease-in-out;
+        transition: .5s ease-in-out;
     }
 
-    .laptop_nav{
+    .laptop_nav_sides, .laptop_nav_upDown{
         transition: 1s ease-in-out;
-        color: rgb(246, 243, 237,.750);
-        font-size: 1.1rem;
+        color: rgb(246, 243, 237);
+        font-size: 1.5rem;
     }
 
     
@@ -83,10 +83,6 @@
         width: 28rem;
         align-items: center;
         height: 4rem;
-        /* border: 2px solid red; */
-    }
-    #about_btn{
-        display: flex;
     }
     /* .personal_written_logo{
         display: flex;
@@ -132,8 +128,8 @@
     }
     .personal_logo_container_center_row{
         display: flex;
-        height: 70%;
-        width: 70%;
+        height: 45%;
+        width: 75%;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
@@ -144,7 +140,6 @@
         justify-content: center;
         align-items: center;
         object-fit: cover;
-        opacity: 80%;
         z-index: 6;
         border-radius: 20rem;
         border: 1rem solid rgba(255, 255, 255, 0.364);
@@ -152,7 +147,7 @@
         height: 35rem;
         width: 35rem;
         cursor: pointer;
-        transition: 1s ease-in-out;
+        transition: 2s ease-in-out 1000ms;
     }
 
 
@@ -164,7 +159,7 @@
         border-radius: 7rem;
         width:30rem ;
         border: .5rem solid rgba(176, 214, 118, .290);
-        transition: 1s ease-in-out;
+        transition: .9s ease-in-out 600ms;
         box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
         15px 10px 10px rgba(0, 0, 0, 0.405),
         inset -1px -1px 5px rgb(255, 255, 255,.2),
