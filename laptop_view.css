@@ -47,9 +47,10 @@
     .laptop_nav_sides::before, .laptop_nav_upDown::before{
         content: " ";
         position: absolute;
-        height: 2.5rem;
+        margin-bottom:3rem;
+        height: .1rem;
         width: 9.5rem;
-        border: 5px solid rgba(255, 255, 255, 0.29);
+        border: 4px solid rgba(255, 255, 255, 0.29);
         box-shadow: 3px 50px 25px 1px rgba(0, 0, 0, 0.7);
         border-radius: .4rem;
         transform: scale(0,1);

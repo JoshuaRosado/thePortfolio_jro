@@ -265,7 +265,7 @@ nav a:hover{
 .extra_info_toggle_label{
     display: flex;
     justify-content: center;
-    margin-top: -2rem;
+    margin-top: 0rem;
     transition: 3s ease;
     
 }
@@ -274,10 +274,10 @@ nav a:hover{
 .more_about_me{
     opacity: 0;
     padding: 0rem 0rem 3rem;
-    transition: .5s  ease-out ;
-    transform-origin:bottom;
-    /* transform: translate(0px, 500px); */
+    transition: opacity 1s  ease-in-out 2s;
+    transform-origin: top;
     border-radius: 1rem;
+    transform: scale(1,0);
 }
 
 .extra_info_toggle:checked ~ .more_about_me{
@@ -290,19 +290,17 @@ nav a:hover{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     transition: 1s ease-in-out;
-    /* transform: translate(0px,-50px); */
+    transform:scale(1,1);
 }
 .more_about_me .about_paragraph{
     opacity: 0;
-    transition: 4s ease-in-out 1s;
 }
 
 .extra_info_toggle:checked ~ .more_about_me .about_paragraph{
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: .6s ease-in-out .6s;
 
 }
-
 
 
 
@@ -315,6 +313,7 @@ nav a:hover{
     width: 4rem;
     text-shadow: 1px 1px 5px black;
     cursor: pointer;
+    margin-top: 3rem;
 }
 .extra_info_toggle_label::after{
     content: "x";
@@ -325,7 +324,7 @@ nav a:hover{
     position: relative;
     z-index: 10;
     left: 0rem;
-    top: 2.1rem;
+    top: 2.5rem;
     display: none;
     animation: dropdown_symbol .6s linear;
     height: 4rem;
@@ -349,7 +348,7 @@ nav a:hover{
 }
 .extra_info_toggle:checked ~ .extra_info_toggle_label::after{
     display: block;
-    transform: rotate(360deg);
+    
 }
 
 
