@@ -33,15 +33,14 @@
 
     .more_about_me{
         position: absolute;
-        top: 90rem;
         left: 8rem;
-        top: 52rem;
+        height:  52rem;
         width: 32rem;
 
     }
     .extra_info_toggle:checked ~ .more_about_me{
         position: relative;
-        top: -48rem;
+        top: -44rem;
         padding-bottom: 4rem;
         padding-top: .1rem;
 
@@ -53,7 +52,7 @@
     
     .extra_info_toggle_label::after{
         position: absolute;
-        top: 88rem;
+        top: 94rem;
         left: 22rem;
     }
     

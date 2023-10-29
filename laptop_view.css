@@ -210,7 +210,7 @@
     .extra_info_toggle:checked ~ .more_about_me{
         height: 43rem;
         position: absolute;
-        top: 55rem;
+        top: 56rem;
         transition: height 1s ease-in-out;
         animation: box_shadow 1.4s linear ;
         height: 50rem;
@@ -225,7 +225,6 @@
     .extra_info_toggle_label::after{
         content: "x";
         font-size: 3rem;
-        justify-content: center;
         position: absolute;
         top: 101rem;
         left: 65rem;
