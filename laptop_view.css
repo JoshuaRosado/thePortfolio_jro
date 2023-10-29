@@ -85,14 +85,6 @@
         align-items: center;
         height: 4rem;
     }
-    /* .personal_written_logo{
-        display: flex;
-        font-family: 'League Spartan', sans-serif;
-        align-items: center;
-        margin: .5rem 3rem;
-        font-weight: 900;
-        color: white;
-    } */
 
     .page_1{
         all:unset;
@@ -121,19 +113,18 @@
     }
     .personal_logo_container{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-evenly;
+        align-items:center;
         height: 100%;
         width: 100%;
         flex-direction: column;
     }
     .personal_logo_container_center_row{
         display: flex;
-        height: 45%;
-        width: 75%;
+        height: 50%;
+        width: 69%;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
 
     }
     .personal_logo3{
