@@ -225,6 +225,7 @@
     .extra_info_toggle_label::after{
         content: "x";
         font-size: 3rem;
+        justify-content: center;
         position: absolute;
         top: 101rem;
         left: 65rem;
