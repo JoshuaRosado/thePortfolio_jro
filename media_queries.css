@@ -52,7 +52,7 @@
     
     .extra_info_toggle_label::after{
         position: absolute;
-        top: 94rem;
+        top: 100rem;
         left: 22rem;
     }
     

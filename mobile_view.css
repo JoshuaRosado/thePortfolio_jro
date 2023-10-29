@@ -325,7 +325,7 @@ nav a:hover{
     position: relative;
     z-index: 10;
     left: 0rem;
-    top: 2.5rem;
+    top: 1.5rem;
     display: none;
     animation: dropdown_symbol .6s linear;
     height: 4rem;
@@ -347,6 +347,7 @@ nav a:hover{
 .extra_info_toggle:checked ~ .extra_info_toggle_label::before{
     display: none;
 }
+
 .extra_info_toggle:checked ~ .extra_info_toggle_label::after{
     display: block;
     
