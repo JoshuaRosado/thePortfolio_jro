@@ -276,6 +276,7 @@ nav a:hover{
     padding: 0rem 0rem 3rem;
     transition: opacity 1s  ease-in-out 2s;
     transform-origin: top;
+    height: 50rem;
     border-radius: 1rem;
     transform: scale(1,0);
 }
@@ -324,7 +325,7 @@ nav a:hover{
     position: relative;
     z-index: 10;
     left: 0rem;
-    top: 2.5rem;
+    top: 3.5rem;
     display: none;
     animation: dropdown_symbol .6s linear;
     height: 4rem;
