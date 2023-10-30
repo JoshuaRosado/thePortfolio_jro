@@ -55,9 +55,9 @@ body{
 .page_1{
     height: 100vh;
     background: rgb(246, 243, 237);
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.1) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/wood_beach_bg.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 10rem, rgba(0, 0, 0, 0.1)), url(./imgs/bg_pics/pexels-julia-volk-7292824.jpg);
     object-fit: cover;
-    background-position: 100%;
+    background-position: 5%;
     background-size: cover;
     scroll-snap-align: always;
 }
@@ -80,14 +80,12 @@ body{
     padding: 1rem;
     animation: logo 3s linear -300ms;
     border: 20px solid rgba(246, 243, 237, 0.16);
-    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.400),
     8px 5px 5px rgba(0, 0, 0, 0.405),
     inset -1px -1px 5px rgb(255, 255, 255,.2),
     inset 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
-.personal_logo2{
-    display: none;
-}
+
 
 .personal_logo3{
     display: none;
