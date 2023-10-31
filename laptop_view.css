@@ -94,23 +94,7 @@
     .personal_logo{
         display: none;
     }
-    .personal_logo2{
-        position: fixed;
-        top: 44rem;
-        left: 72rem;
-        display: block;
-        object-fit: cover;
-        opacity: 50%;
-        z-index: 6;
-        margin: .5rem -5rem 0rem 0rem;
-        border-radius: 3rem;
-        border: .5rem solid rgba(255, 255, 255, 0.364);
-        padding: .3rem;
-        height: 5rem;
-        width: 5rem;
-        cursor: pointer;
-        transition: 1s ease-in-out;
-    }
+
     .personal_logo_container{
         display: flex;
         justify-content: space-evenly;
@@ -165,18 +149,20 @@
             margin-top: 0rem;
             display: flex;
             flex-direction: row;
+            align-items: center;
+            justify-content: center;
             z-index: 0;
-            justify-content:center;
-            border: 10px solid rgba(246, 243, 237, 0.923);
-            box-shadow: 15px 15px 70px 1px rgba(0, 0, 0, 0.306),
+            border: 10px inset rgba(246, 243, 237, 0.923);
+            box-shadow: 15px 15px 50px 1px rgba(0, 0, 0, 0.306),
             2px 3px 2px 2px rgba(255, 255, 255, 0.258),
             inset -1px -1px 5px rgba(234, 222, 222, 0.2),
-            inset 15px 15px 30px rgba(0, 0, 0, 0.184);
+            inset 15px 15px 30px rgba(0, 0, 0, 0.284);
             backdrop-filter: blur(5px);
-            background-color: rgba(246, 243, 237, 0.099);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(246, 243, 237, 0.055);
             height:6rem;
-        /* ====== Blank Section between glass windows ===== */
         }
+        /* ====== Blank Section between glass windows ===== */
         .blank_section{
             height: 8rem;
             background-color: rgb(246, 243, 237);
@@ -251,23 +237,23 @@
     .profile_pic{
         height: 30rem;
         width: 30rem;
-        padding: 3rem;
+        padding: 2rem;
         margin-bottom: 6rem;
-        border-radius:50% 290% 400%;
+        border-radius:20rem;
         object-fit: cover;
         box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
-        8px 5px 5px rgba(0, 0, 0, 0.275);
+        10px 15px 15px 1px rgba(0, 0, 0, 0.275);
     }
 
 
     .about_name{
         font-size: 4rem;
-        color: white;
-        text-shadow: 3px 3px 2px rgba(193, 190, 190, 0.416);
+        color: rgb(31, 24, 24);
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.416);
     }
     .last_name{
         color: rgb(246, 243, 237);
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .about_title{
         color: rgb(246, 243, 237);
