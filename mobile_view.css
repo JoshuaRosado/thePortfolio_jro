@@ -377,6 +377,10 @@ nav a:hover{
     padding: 1rem ;
 }
 
+.personal_small_logo{
+    display: none;
+}
+
 .about_p{
     text-indent: 0em;
     text-align: center;
@@ -415,16 +419,28 @@ nav a:hover{
     margin-bottom: 20rem;
 }
 
+.about_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .profile_pic{
     height: 12rem;
     width: 12rem;
-    object-fit: cover;
+    object-fit: contain;
     margin: 0rem 0rem 2rem;
     border-radius: 25%;
+    border: 5px solid rgb(246, 243, 237);
+    box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.800),
+    7px 7px 7px rgba(0, 0, 0, 0.251);
+
 }
 
 .profile_pic_container{
+
+    /* background: linear-gradient(to bottom, rgb(246, 243, 237), rgba(176, 214, 118, .290)); */
     display: flex;
     justify-content: center; 
 }
