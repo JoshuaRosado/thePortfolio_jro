@@ -234,16 +234,62 @@
     .about_img{
         min-width: 10rem;
     }
-    .profile_pic{
-        height: 30rem;
+
+    .profile_pic_container{
+        background: white;
+        /* background: linear-gradient(to left,rgba(255, 255, 255, 0.521), rgba(176, 214, 118, .990)); */
+        height: 22rem;
+        z-index: 3;
+        border-radius: 200% 200% 3% 200%;
+        display: flex;
+        flex-direction:column-reverse;
         width: 30rem;
-        padding: 2rem;
-        margin-bottom: 6rem;
-        border-radius:20rem;
-        object-fit: cover;
+        padding:2.2rem ;
+        border: 12px solid rgba(158, 183, 119, .303);
+        border-bottom: none;
+        margin-bottom: 10rem;
         box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
-        10px 15px 15px 1px rgba(0, 0, 0, 0.275);
+        8px 15px 15px 2px rgba(0, 0, 0, 0.385),
+        inset -10px -10px 20px 3px rgba(0, 0, 0, 0.444);
     }
+    .profile_pic{
+        background-color: none;
+        z-index: 3;
+        height: 30rem;
+        margin-top: 0rem;
+        width: 30rem;
+        object-fit: contain;
+
+    }
+
+    .personal_small_logo{
+        margin-top: -2.5rem;
+        height: 10rem;
+        position: absolute;
+        width: 10rem;
+        border-radius: 50%;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 5px 5px rgba(0, 0, 0, 0.405),
+        inset -1px -1px 5px rgb(255, 255, 255,.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+        object-fit: cover;
+        border: .5rem solid rgb(246, 243, 237);
+        backdrop-filter: blur(10px);
+        padding: .5rem;
+    }
+
+    /* .profile_pic_right_line{
+        position: absolute;
+        margin-left: 26rem ;
+        margin-bottom: -3.8rem;
+        border-radius: 5px;
+        z-index: 4;
+        height: 22rem;
+        width: 2rem;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.181), rgba(255, 255, 255, 0)) 40rem;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    } */
 
 
     .about_name{
