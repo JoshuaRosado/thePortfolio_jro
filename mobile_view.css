@@ -425,11 +425,13 @@ nav a:hover{
     justify-content: center;
 }
 
-
 .profile_pic{
-    height: 12rem;
-    width: 12rem;
-    object-fit: contain;
+    display: none;
+}
+.profile_pic_mobile{
+    height: 15rem;
+    width: 11.5rem;
+    object-fit:fill;
     margin: 0rem 0rem 2rem;
     border-radius: 25%;
     border: 5px solid rgb(246, 243, 237);
@@ -440,7 +442,6 @@ nav a:hover{
 
 .profile_pic_container{
 
-    /* background: linear-gradient(to bottom, rgb(246, 243, 237), rgba(176, 214, 118, .290)); */
     display: flex;
     justify-content: center; 
 }
