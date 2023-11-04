@@ -225,14 +225,12 @@
     }
     .about_line_decor{
         height: 5rem;
-        width: 1rem;
+        width: .5rem;
         border-radius: 5rem;
         background-color: rgb(246, 243, 237);
         box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.800),
-        0px 5px 6px 5px rgba(0, 0, 0, 0.285);
+        0px 1px 2px 3px rgba(0, 0, 0, 0.185);
         margin: 3rem 17rem;
-        /* margin-left: 17rem;
-        margin-bottom: 5rem; */
 
     }
     .container_about{
@@ -252,14 +250,8 @@
     .profile_pic_container{
         margin-bottom: 12rem;
         z-index: 3;
-        border-radius: 1rem;
         display: flex;
         align-items: center;
-        flex-direction:column-reverse;
-        border: 12px solid rgb(246, 243, 237);
-        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
-        0px 30px 20px 10px rgba(0, 0, 0, 0.385),
-        inset -10px -10px 20px 3px rgba(0, 0, 0, 0.444);
     }
 
 
@@ -268,16 +260,17 @@
     }
     .profile_pic{
         display: block;
-        box-shadow: none;
-        border: none;
+        border-radius: 1rem;
         background-color: none;
         z-index: 3;
         height: 30rem;
         width: 26rem;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.800),
+        8px 15px 12px 3.5px rgba(0, 0, 0, 0.405);
+        border: 6px solid rgb(246, 243, 237);
         object-fit: cover;
 
     }
-
 
 
     .about_name{
