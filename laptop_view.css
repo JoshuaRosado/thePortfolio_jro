@@ -223,14 +223,15 @@
     .about_paragraph{
         background-color: white;
     }
-    .about_line_decor{
-        height: 5rem;
-        width: .5rem;
+    .about_decor_line{
+        height: 8rem;
+        width: 2rem;
         border-radius: 5rem;
         background-color: rgb(246, 243, 237);
         box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.800),
-        0px 1px 2px 3px rgba(0, 0, 0, 0.185);
-        margin: 3rem 17rem;
+        0px 1px 2px 3px rgba(0, 0, 0, 0.175);
+        margin: 2rem 16rem 0rem;
+
 
     }
     .container_about{
@@ -400,7 +401,6 @@
     }
     .projectName{
         font-size: 3rem;
-
     }
     .project_info_p{
         font-size: 1rem;
@@ -468,6 +468,28 @@
         15px 10px 10px rgba(0, 0, 0, 0.405),
         inset -1px -1px 5px rgb(255, 255, 255,.2),
         inset 55px 40px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .contact_decor_line,.contact_decor_line_left,.contact_decor_line_right{
+        height: 10rem;
+        width: 3rem;
+        border-radius: 5rem;
+        background-color: rgb(246, 243, 237);
+        box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.800),
+        0px 1px 2px 3px rgba(0, 0, 0, 0.185);
+        position: absolute;
+    }
+    .contact_decor_line{
+        margin-top: 35rem;
+        margin-left: .5rem;
+    }
+    .contact_decor_line_left{
+        margin-top: 35rem;
+        margin-right: 55rem;
+    }
+    .contact_decor_line_right{
+        margin-top: 35rem;
+        margin-left: 55rem;
     }
 
     /* ============================================= */
