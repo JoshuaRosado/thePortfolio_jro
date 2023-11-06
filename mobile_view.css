@@ -325,6 +325,7 @@ nav a:hover{
     text-shadow: 1px 1px 5px black;
     cursor: pointer;
     margin-top: 0rem;
+    margin-bottom: 5rem;
 }
 .extra_info_toggle_label::after{
     content: "x";
@@ -463,7 +464,7 @@ nav a:hover{
 
 /* ==================== TECHNOLOGIES SECTION ===================== */
 .page_3{
-    margin-top: 0rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
