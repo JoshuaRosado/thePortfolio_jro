@@ -38,6 +38,8 @@ const observer = new IntersectionObserver((entries) => {
 const revealAnimElements1 = document.querySelectorAll('.reveal_anim1')
 const revealAnimElements2 = document.querySelectorAll('.reveal_anim2');
 const revealAnimElements3 = document.querySelectorAll('.reveal_anim3')
+const revealAnimElements4 = document.querySelectorAll('.reveal_anim4')
 revealAnimElements1.forEach((el) => observer.observe(el));
 revealAnimElements2.forEach((el) => observer.observe(el));
 revealAnimElements3.forEach((el) => observer.observe(el));
+revealAnimElements4.forEach((el) => observer.observe(el));
