@@ -32,13 +32,26 @@ body{
 }
 
 /* ========= REVEAL ANIMATION ======== */
-.reveal_anim{
+.reveal_anim1{
     opacity: 0;
-    transition: all .4s ease-in-out 250ms;
+    transform: translate(-2rem, 0rem);
+    transition: all .6s ease-in-out 200ms;
+}
+.reveal_anim2{
+    opacity: 0;
+    transform: translate(2rem, 0rem);
+    transition: all .6s ease-in-out 200ms;
+}
+.reveal_anim3{
+    opacity: 0;
+    transform: translate(0rem, 5rem);
+    transition: all .6s ease-in-out 200ms;
 }
 
 .show{
     opacity: 1;
+    transform: translate(0%);
+
 }
 
 
