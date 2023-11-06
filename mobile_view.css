@@ -98,6 +98,21 @@ body{
     inset 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
+.logoAnim{
+    opacity: 90%;
+    height: 20rem;
+    padding: .5rem;
+    transform: rotate(360deg);
+    border-radius: 3rem;
+    width:20rem ;
+    border: .5rem solid rgba(176, 214, 118, .290);
+    transition: .9s ease-in-out 600ms;
+    box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
+    15px 10px 10px rgba(0, 0, 0, 0.405),
+    inset -1px -1px 5px rgb(255, 255, 255,.2),
+    inset 55px 40px 10px rgba(0, 0, 0, 0.5);
+}
+
 
 .personal_logo3{
     display: none;
@@ -392,9 +407,6 @@ nav a:hover{
     padding: 1rem ;
 }
 
-.personal_small_logo{
-    display: none;
-}
 
 .about_p{
     text-indent: 0em;

@@ -22,6 +22,23 @@ function scrollContact(){
     contact = document.getElementById('contact').scrollIntoView(); 
 }
 
+// ===============================================================================
+
+// =========== MOBILE LOGO ONCLICK ANIM =======================
+const logoImg = document.querySelector("#personal_logo_mobile");
+function logoAnim(element){
+    element.classList.add('logoAnim');
+    logoImg.src = "./imgs/profile_pic/2.png";
+}
+
+
+
+// ============================================================
+
+
+
+
+// ==================  SCROLL REVEAL ANIM BY SECTIONS =================
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
