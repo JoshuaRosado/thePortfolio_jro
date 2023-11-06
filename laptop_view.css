@@ -24,23 +24,23 @@
 .reveal_anim1{
     opacity: 0;
     transform: translate(-3rem, 0rem);
-    transition: all .6s ease-in-out 200ms;
+    transition: all 1s ease-in-out 200ms;
 }
 .reveal_anim2{
     opacity: 0;
     transform: translate(3rem, 0rem);
-    transition: all .6s ease-in-out 200ms;
+    transition: all 1s ease-in-out 200ms;
 }
 .reveal_anim4{
     opacity: 0;
-    transform: translate(0rem, 4rem);
-    transition: all .6s ease-in-out 200ms;
+    transform: translate(0rem, 5rem);
+    transition: all .8s ease-in-out 250ms;
 }
 
 .reveal_anim3{
     opacity: 0;
     transform: translate(0rem, 5rem);
-    transition: all .6s ease-in-out 200ms;
+    transition: all .8s ease-in-out 250ms;
 }
 
 
