@@ -1,6 +1,5 @@
 @media screen and (min-device-width: 850px){
 
-
     #home_btn{
         display: none;
     }
@@ -8,9 +7,6 @@
 .extra_info_toggle_label{
     cursor: pointer;
 }
-
-
-
 
 .intro{
     width: 100%;
@@ -207,9 +203,11 @@
         top: 101rem;
         left: 65rem;
     }
-    .more_info_title{
-        margin-bottom: -1rem;
+    .extra_info_toggle_label::before{
+        content: "^";
+        margin-top: 0rem;
     }
+
 
 
 
@@ -221,7 +219,11 @@
         
     }
     .about_paragraph{
+        text-align: start;
         background-color: white;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 1rem;
     }
     .about_decor_line{
         height: 8rem;
@@ -230,7 +232,7 @@
         background-color: rgb(246, 243, 237);
         box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.800),
         0px 1px 2px 3px rgba(0, 0, 0, 0.175);
-        margin: 2rem 16rem 0rem;
+        margin: 2rem 16.5rem 0rem;
 
 
     }
@@ -245,7 +247,7 @@
         width: 35rem;
     }
     .about_img{
-        min-width: 10rem;
+        min-width: 35rem;
     }
 
     .profile_pic_container{
@@ -285,6 +287,7 @@
     }
     .about_title{
         color: rgb(246, 243, 237);
+        margin: 1.8rem 0rem;
         text-shadow: 1px 1px 1px rgb(255, 255, 255);
     }
     /* ======================================== */
