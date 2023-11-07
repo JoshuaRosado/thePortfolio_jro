@@ -23,6 +23,38 @@ function scrollContact(){
 }
 
 // ===============================================================================
+// ======================== ABOUT LANGUAGE SELECTION FUNCTION ====================
+const about_p1_english = document.getElementById("about_first_paragraph");
+const hello_selection_btn = document.getElementById("en_language_selection");
+const hola_selection_btn = document.getElementById("es_language_selection");
+
+function esLanguage(){
+    about_p1_english.innerText = " Soy un Software Developer que quiere hacer la diferencia ayudando clientes a evolucionar en la industria digital. Existe algo en tener el poder de crear productos para ayudarme a mi mismo y a otros que se ha convertido en un 'ESTILO DE VIDA' para mi.";
+
+
+    // ================ BTN SELECTION COLOR ==============
+    hola_selection_btn.classList.add("hola_btn_selected");
+    hello_selection_btn.classList.remove("hello_btn_selected");
+    hello_selection_btn.classList.add("animation_for_language_selection");
+    hola_selection_btn.classList.remove("animation_for_language_selection")
+
+}
+
+function enLanguage(){
+    about_p1_english.innerText = "I am a Software Developer that wants to make a difference helping customers evolve in the digital industry. There's something about having the power of creating and building things to help myself and others that has become a 'WAY OF LIFE' for me. ";
+
+    // ================ BTN SELECTION COLOR ==============
+    hello_selection_btn.classList.add("hello_btn_selected");
+    hola_selection_btn.classList.remove("hola_btn_selected");
+    hello_selection_btn.classList.remove("animation_for_language_selection");
+    hola_selection_btn.classList.add("animation_for_language_selection");
+
+}
+
+// ===============================================================================
+
+
+
 
 // =========== MOBILE LOGO ONCLICK ANIM =======================
 const logoImg = document.querySelector("#personal_logo_mobile");

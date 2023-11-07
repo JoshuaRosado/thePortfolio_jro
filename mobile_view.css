@@ -406,6 +406,43 @@ nav a:hover{
     border-radius:25px;
     padding: 1rem ;
 }
+/* ===================== ABOUT LANGUAGE CHANGE FUNCTION ================== */
+.select_lan{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+    font-size: .8rem;
+}
+#en_language_selection, #es_language_selection{
+    cursor: pointer;
+
+}
+.animation_for_language_selection{
+    animation: language_selection 5s linear infinite;
+}
+
+@keyframes language_selection {
+    0%{color: rgb(246, 243, 237) ;}
+    50%{color: rgb(246, 243, 637,.500) ;}
+    100%{color: rgb(246, 243, 237) ;}
+    
+}
+.hello_btn_selected{
+    color: rgba(0, 0, 0, 0.302);
+    border-top: 4px solid rgba(255, 255, 255, 0.44);
+    text-shadow: 1px 1px 1px rgba(176, 214, 118, .990);
+    border-radius: .1rem;
+    transition: 1s ease-in-out;
+}
+.hola_btn_selected{
+    color: rgba(0, 0, 0, 0.302);
+    border-top: 4px solid rgba(255, 255, 255, 0.44);
+    text-shadow: 1px 1px 1px rgba(176, 214, 118, .990);
+    border-radius: .1rem;
+    transition: 1s ease-in-out;
+}
+
+/* ====================================================================== */
 
 
 .about_p{
@@ -472,6 +509,7 @@ nav a:hover{
     display: flex;
     justify-content: center; 
 }
+
 
 
 /* ==================== TECHNOLOGIES SECTION ===================== */
