@@ -36,13 +36,13 @@
 
             <!--------------------------- LAPTOP VIEW NAV --------------------------->
             <div class="personal_logo_container">
-                <a class="nav_links laptop_nav_upDown" id="about_btn" onclick="scrollAbout()"> About</a>
+                <a class="nav_links laptop_nav_upDown" id="about_btn_laptopView" onclick="scrollAbout()"> About</a>
                 <div class="personal_logo_container_center_row">
-                    <a class="nav_links laptop_nav_sides" id="technologies_btn"onclick="scrollTechnologies()">Technologies</a>
+                    <a class="nav_links laptop_nav_sides" id="technologies_btn_laptopView" onclick="scrollTechnologies()">Technologies</a>
                     <img src="./imgs/profile_pic/3.png" alt="personal_logo" class="personal_logo3">
-                    <a class="nav_links laptop_nav_sides" id="project_btn" onclick="scrollProjects()">Projects</a>
+                    <a class="nav_links laptop_nav_sides" id="project_btn_laptopView"  onclick="scrollProjects()">Projects</a>
                 </div>
-                <a class="nav_links laptop_nav_upDown" id="contact_btn" onclick="scrollContact()">Contact</a>
+                <a class="nav_links laptop_nav_upDown" id="contact_btn_laptopView"  onclick="scrollContact()">Contact</a>
             </div>
             <!-- -------------------------------------------------------------------- -->
             <video muted preload="auto"
@@ -86,26 +86,27 @@
                     </label>
                     <div class="more_about_me">
                         <h3 class="about_title" id="goals_title">Goals</h3>
-                        <p class="about_paragraph">
-                            Working as a Front End Developer, Back End Developer or Full Stack Developer. I love experimenting out of my comfort zone. Help a community evolve while we grow as a team and improve as a company. I'm always open to learn new languages, skills and technologies to fit the needs of a client or company. One thing I can say, is that I adapt to any environment, workspace or culture to help contribute in the same direction to success. 
-                            <!-- I'm aiming to become a proficient software developer. I enjoy working as Front End Developer, CSS is my favorite part. I want to become a proficient Back End Developer to be useful in both areas. After obtaining a Full Stack Development Certificate in Python, I went back to refresh my knowledge in certain areas, such as JavaScript, Node.js, MySQL Queries and Flask. Currently I'm learning DJango and API. Next I want to learn more about Front End technologies like React. -->
+                        <p class="about_paragraph more_info_goals">
+                            Helping a community evolve while both parts grow and improve as a team. Working as a Front End Developer, Back End Developer or Full Stack Developer. Love for the experience out of the comfort zone. I'm always open to learn new languages, skills and technologies to fit the needs of a workspace, culture or environment.
                         </p>
                         <br>
                         <h3 class="about_title" id="extra_info_title">Extra Info</h3>
                         <ul class="about_p about_paragraph" id="language_about">
-                            <li>English - Fluent</li>
-                            <li>Spanish - Native</li>
-                            <li>Italian/Japanese - Beginner</li>
+                            <li class="en_level">English - Fluent</li>
+                            <li class="es_level">Spanish - Native</li>
+                            <li class="it_jp_level">Italian/Japanese - Beginner</li>
                             <br>
                             <span id="stress_relievers">Stress Relievers:</span> <br>
-                                Gym | LoFi Girl Radio | Matcha | The Ocean | Mountains | Rain
+                            <p id="stress_list">Gym | LoFi Girl Radio | Matcha | The Ocean | Mountains | Rain
+                            </p>
+                                
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="page_3" id="technologies">
-            <h1 class="technologies_title reveal_anim3">Technologies</h1>
+            <h2 class="technologies_title reveal_anim3">Technologies</h1>
             <div class="tech_container tech_rows">
                 <div class="row1 row">
                     <img src="./imgs/tech_logos/icons8-html-5-480.png"alt="html_logo" class="logo reveal_anim1">

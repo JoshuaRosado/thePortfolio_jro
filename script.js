@@ -25,36 +25,103 @@ function scrollContact(){
 // ===============================================================================
 // ======================== ABOUT LANGUAGE SELECTION FUNCTION ====================
 const about_p1 = document.getElementById("about_first_paragraph");
-const about_p2 = document.getElementById("about_second_paragraph")
+const about_p2 = document.getElementById("about_second_paragraph");
 const hello_selection_btn = document.querySelector(".en_language_selection");
 const hola_selection_btn = document.getElementById("es_language_selection");
-const thingsIlikeToDo = document.querySelector(".things_I_like_to_do")
+const thingsIlikeToDo = document.querySelector(".things_I_like_to_do");
 const more_info_title = document.querySelector(".more_info_title");
+const goals_title = document.getElementById("goals_title");
+const more_info_goals = document.querySelector(".more_info_goals");
+const extra_info_title = document.getElementById("extra_info_title");
+const en_level = document.querySelector(".en_level");
+const es_level = document.querySelector(".es_level");
+const it_jp_level = document.querySelector(".it_jp_level");
+const stress_relievers = document.getElementById("stress_relievers");
+const stress_list = document.getElementById("stress_list");
+const home_btn = document.getElementById("home_btn");
+const about_btn = document.getElementById("about_btn");
+const technologies_btn = document.getElementById("technologies_btn");
+const projects_btn = document.getElementById("projects_btn");
+const contact_btn = document.getElementById("contact_btn");
+const about_btn_laptopView = document.getElementById("about_btn_laptopView");
+const projects_btn_laptopView = document.getElementById("project_btn_laptopView");
+const technologies_btn_laptopView = document.getElementById("technologies_btn_laptopView");
+const contact_btn_laptopView = document.getElementById("contact_btn_laptopView");
+const welcome = document.querySelector(".name_logo");
+const tech_title = document.querySelector(".technologies_title");
+const projects_title = document.querySelector(".projects_title");
+const projects_title2 = document.querySelector(".projects_title2");
+const contact_title = document.querySelector(".contact_title");
+const coming_soon_msg = document.querySelector(".coming_soon_msg");
+
 
 function esLanguage(){
+// ======================  PARAGRAPH 1 OF ABOUT SECTION =======================================
+    about_p1.innerText = " Soy un Desarrollador de Software que quiere hacer la diferencia ayudando clientes a evolucionar en la industria digital. Existe algo en tener el poder de crear productos para ayudarme a mi mismo y a otros que se ha convertido en un 'ESTILO DE VIDA' para mi.";
 
-    about_p1.innerText = " Soy un Software Developer que quiere hacer la diferencia ayudando clientes a evolucionar en la industria digital. Existe algo en tener el poder de crear productos para ayudarme a mi mismo y a otros que se ha convertido en un 'ESTILO DE VIDA' para mi.";
-
+    // ======================  THINGS I LIKE TO DO - TITLE =======================================
     thingsIlikeToDo.innerText = "Cosas que me gustan hacer";
 
-
+    // ======================  PARAGRAPH 2 OF ABOUT SECTION =======================================
     about_p2.innerText = " Me apasiona el baloncesto, surfing, gimnasio, aprender cosas que sean dificiles y que me reten al 'infinito y el mas alla'(Esa frase me parece muy familiar!). Pero volviendo al tema, me puedes encontrar corriendo longboard junto a mi hija, jugando Roblox con mi hijo mayor y cantando, bailando junto a mi esposa y a nuestro hijo recien nacido. 'Ohana significa familia'(Otra frase familiar!)";
+// ============================== MORE INFO SECTION ===========================
+    more_info_title.innerText = "Mas informacion...";
+    goals_title.innerText = "Metas";
+    more_info_goals.innerText = " Ayudar a una comunidad evolucionar mientras ambas partes crecemos y progresamos como equipo. Contribuir como Desarrollador FrontEnd, Desarrollador BackEnd o como Desarrollador Full Stack. Amor por la experiencia fuera de la zona de confort. Siempre estoy abierto y disponible a aprender nuevos lenguajes, habilidades y tecnologias para satisfacer las necesidades de un espacio de trabajo, cultura o entorno.";
+    extra_info_title.innerText = "Info Extra";
+    en_level.innerText = "Ingles - Fluido";
+    es_level.innerText = "Espanol - Nativo";
+    it_jp_level.innerText = "Italiano / Japones - Principiante";
+    stress_relievers.innerText =  "Calmantes de estres: ";
+    stress_list.innerText = "Gimnasio | Lofi Girl Radio | Matcha | El Oceano | Montanas | Lluvia";
 
-    more_info_title.innerText = "Mas informacion";
+// ===================== MOBILE NAV LINKS =================================
+    home_btn.innerText = "Inicio";
+    about_btn.innerText = "Acerca de mi";
+    technologies_btn.innerText = "Tecnologias";
+    projects_btn.innerText = "Proyectos";
+    contact_btn.innerText = "Contacto";
 
+    welcome.innerText = "Bienvenidos";
 
+// ===================== LAPTOPVIEW NAV LINKS =================================
+    about_btn_laptopView.innerText = "Acerca de mi";
+    technologies_btn_laptopView.innerText = "Tecnologias";
+    projects_btn_laptopView.innerText = "Proyectos";
+    contact_btn_laptopView.innerText = "Contacto";
 
-    // ================ BTN SELECTION COLOR ==============
+// ========= TITLES BY SECTIONS ==================================
+    tech_title.innerText = "Tecnologias";
+    projects_title.innerText = "Proyectos";
+    projects_title2.innerText = "Proyectos";
+    contact_title.innerText = "Contacto";
+
+    // ================ BTN SELECTION COLOR ==========================
     hola_selection_btn.classList.add("hola_btn_selected");
     hello_selection_btn.classList.remove("hello_btn_selected");
     hello_selection_btn.style.color = "rgb(246, 243, 237)";
     hello_selection_btn.style.border = "none";
+
+    /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
+    coming_soon_msg.innerText = "Pronto";
+}
     
 
-}
+
 
 function enLanguage(){
     about_p1.innerText = "I am a Software Developer that wants to make a difference helping customers evolve in the digital industry. There's something about having the power of creating and building things to help myself and others that has become a 'WAY OF LIFE' for me. ";
+
+    thingsIlikeToDo.innerText = "Things I like to do";
+
+
+    about_p2.innerText = "I love basketball, surfing, gym, learning things that are difficult and challenging myself 'to infinity and beyond' (That quote sounds familiar!). Anyhow... you can find me cruising on my longboard along side my daughter, playing Roblox with my older son and singing, dancing with my wife holding our newborn baby boy. 'Ohana means family'(Another one!).";
+
+    more_info_title.innerText = "More info...";
+
+    goals_title.innerText = "Goals";
+
+
 
 
 
