@@ -121,6 +121,44 @@ function enLanguage(){
 
     goals_title.innerText = "Goals";
 
+    more_info_goals.innerText = "Helping a community evolve while both parts grow and improve as a team. Working as a Front End Developer, Back End Developer or Full Stack Developer. Love for the experience out of the comfort zone. I'm always open to learn new languages, skills and technologies to fit the needs of a workspace, culture or environment.";
+    extra_info_title.innerText = "Extra Info";
+    en_level.innerText = "English - Fluent";
+    es_level.innerText = "Spanish - Native";
+    it_jp_level.innerText = "Italian / Japanese - Beginner";
+    stress_relievers.innerText =  "Stress Relievers: ";
+    stress_list.innerText = "Gym | Lofi Girl Radio | Matcha | The Ocean | Mountains | Rain";
+
+// ===================== MOBILE NAV LINKS =================================
+    home_btn.innerText = "Home";
+    about_btn.innerText = "About";
+    technologies_btn.innerText = "Technologies";
+    projects_btn.innerText = "Projects";
+    contact_btn.innerText = "Contact";
+
+    welcome.innerText = "Welcome";
+
+// ===================== LAPTOPVIEW NAV LINKS =================================
+    about_btn_laptopView.innerText = "About";
+    technologies_btn_laptopView.innerText = "Technologies";
+    projects_btn_laptopView.innerText = "Projects";
+    contact_btn_laptopView.innerText = "Contact";
+
+// ========= TITLES BY SECTIONS ==================================
+    tech_title.innerText = "Technologies";
+    projects_title.innerText = "Projects";
+    projects_title2.innerText = "Projects";
+    contact_title.innerText = "Contact";
+
+    // // ================ BTN SELECTION COLOR ==========================
+    // hola_selection_btn.classList.add("hola_btn_selected");
+    // hello_selection_btn.classList.remove("hello_btn_selected");
+    // hello_selection_btn.style.color = "rgb(246, 243, 237)";
+    // hello_selection_btn.style.border = "none";
+
+    /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
+    coming_soon_msg.innerText = "Coming Soon";
+
 
 
 
