@@ -417,23 +417,11 @@ nav a:hover{
     cursor: pointer;
 
 }
-.en_language_selection{
-    color: rgba(175, 214, 118, .990);
-    border-top: 4px solid rgba(255, 255, 255, 0.44);
-    border-radius: .1rem;
-    transition: 1s ease-in-out;
-}
-    
-.hello_btn_selected{
-    color: rgba(175, 214, 118, .990);
-    border-top: 4px solid rgba(255, 255, 255, 0.44);
-    border-radius: .1rem;
-    transition: 1s ease-in-out;
-}
 
-.hola_btn_selected{
+    
+.hola_btn_selected, .hello_btn_selected, .en_language_selection{
     color: rgba(175, 214, 118, .990);
-    border-top: 4px solid rgba(255, 255, 255, 0.44);
+    border-top: 4px solid rgba(255, 255, 255, 0.246);
     border-radius: .1rem;
     transition: 1s ease-in-out;
 }

@@ -151,10 +151,6 @@ function enLanguage(){
     contact_title.innerText = "Contact";
 
     // // ================ BTN SELECTION COLOR ==========================
-    // hola_selection_btn.classList.add("hola_btn_selected");
-    // hello_selection_btn.classList.remove("hello_btn_selected");
-    // hello_selection_btn.style.color = "rgb(246, 243, 237)";
-    // hello_selection_btn.style.border = "none";
 
     /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
     coming_soon_msg.innerText = "Coming Soon";
@@ -167,7 +163,7 @@ function enLanguage(){
     hello_selection_btn.classList.add("hello_btn_selected");
     hola_selection_btn.classList.remove("hola_btn_selected");
     hello_selection_btn.style.color = "rgba(175, 214, 118, .990)";
-    hello_selection_btn.style.borderTop= "4px solid rgba(255, 255, 255, 0.44)";
+    hello_selection_btn.style.borderTop= "6px solid rgba(255, 255, 255, 0.246)";
 
 }
 
