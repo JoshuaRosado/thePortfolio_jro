@@ -35,7 +35,7 @@ body{
 .reveal_anim1{
     opacity: 0;
     transition: all .8s ease-in-out 200ms;
-    transform: translate(-5rem, 0rem);
+    transform: translate(-1rem, 2rem);
 }
 .reveal_anim2{
     opacity: 0;
@@ -44,7 +44,7 @@ body{
 }
 .reveal_anim3{
     opacity: 0;
-    transform: translate(0rem, 5rem);
+    transform: translate(0rem, 4rem);
     transition: all .7s ease-in-out 200ms;
 }
 
@@ -81,6 +81,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 101%;
 }
 
 .personal_logo{
@@ -463,8 +464,8 @@ nav a:hover{
 }
 
 .about_section{
-    height: 130vh;
-    margin-bottom: 20rem;
+    height: 180vh;
+    /* margin-bottom: 20rem; */
 }
 
 .about_img{

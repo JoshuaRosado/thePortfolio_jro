@@ -70,6 +70,7 @@
     header{
         display: none;
     }
+
     
     .laptop_nav_sides::before, .laptop_nav_upDown::before{
         content: " ";
@@ -132,8 +133,8 @@
     }
     .personal_logo_container_center_row{
         display: flex;
-        height: 55%;
-        width: 72%;
+        height: 67%;
+        width: 65%;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
@@ -198,8 +199,8 @@
 
         /* =============== ABOUT =============== */
         .about_section{
-        height: 100vh;
-        margin: 0rem 0rem;
+        height: 110vh;
+        margin: 0rem;
     }
 
     .more_about_me{
@@ -236,7 +237,7 @@
     }
     .extra_info_toggle_label::before{
         content: "^";
-        margin-top: 0rem;
+        margin-top: -1rem;
     }
 
 
@@ -342,7 +343,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .technologies_title{
         margin: 5rem;
