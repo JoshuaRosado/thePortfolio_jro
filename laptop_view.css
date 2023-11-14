@@ -122,7 +122,7 @@
     .personal_logo{
         display: none;
     }
-
+/*  =================== LOGO AND LAPTOP VIEW NAV LINKS ================================ */
     .personal_logo_container{
         display: flex;
         justify-content: space-evenly;
