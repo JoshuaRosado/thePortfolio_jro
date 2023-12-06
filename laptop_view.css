@@ -72,7 +72,7 @@
     }
 
     
-    .laptop_nav_sides::before, .laptop_nav_upDown::before{
+    .laptop_nav_sides::before, .laptop_nav_up_down::before{
         content: " ";
         position: absolute;
         margin-bottom:3rem;
@@ -86,19 +86,19 @@
         transition: transform .5s ease-in-out 300ms;
     }
     
-    .laptop_nav_sides:hover::before, .laptop_nav_upDown:hover::before {
+    .laptop_nav_sides:hover::before, .laptop_nav_up_down:hover::before {
         transform: scale(1,1);
         transform-origin: left;
         backdrop-filter: blur(2px);
         z-index: -1;
     }
     
-    .laptop_nav_sides:hover, .laptop_nav_upDown:hover{
+    .laptop_nav_sides:hover, .laptop_nav_up_down:hover{
         color: rgba(176, 214, 118, .990);
         transition: .5s ease-in-out;
     }
 
-    .laptop_nav_sides, .laptop_nav_upDown{
+    .laptop_nav_sides, .laptop_nav_up_down{
         transition: 1s ease-in-out;
         color: rgb(246, 243, 237);
         font-size: 1.5rem;
@@ -485,7 +485,7 @@
         align-items: center;
 
     }
-    .contactLogos{
+    .contact_logos{
         all: unset;
         margin: 1.2rem 1.5rem 0rem;    
         height: 4.5rem;
@@ -509,7 +509,7 @@
         display:block;
         margin: 0rem 0rem 25rem;
     }
-    .contactLogos:hover{
+    .contact_logos:hover{
         transition: .4s ease-in-out;
         box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.800),
         15px 10px 10px rgba(0, 0, 0, 0.405),
@@ -584,7 +584,7 @@
     .projects_title2{
         margin-right: 5rem;
     }
-    .contactLogos{
+    .contact_logos{
         height: 5.4rem;
         margin: 0rem 3rem
     }

@@ -99,7 +99,7 @@ body{
     inset 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-.logoAnim{
+.logo_anim{
     opacity: 90%;
     height: 20rem;
     padding: .5rem;
@@ -608,7 +608,7 @@ nav a:hover{
     text-align: center;
     flex-direction: column;
 }
-.projectName{
+.project_name{
     font-size: 1.2rem;
     text-decoration: underline;
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
@@ -650,11 +650,11 @@ nav a:hover{
     flex-direction: column;
     align-items: center;
 }
-.contactOption{
+.contact_option{
     margin: 1.5rem 0rem;
 
 }
-.contactLogos{
+.contact_logos{
     height: 6.2rem;
     border-radius: 50%;
     border: 10px solid rgb(246, 243, 237);
