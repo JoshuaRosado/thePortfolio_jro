@@ -32,20 +32,19 @@ body{
 }
 
 /* ========= REVEAL ANIMATION ======== */
-.reveal_anim1{
-    opacity: 0;
-    transition: all .8s ease-in-out 200ms;
-    transform: translate(-1rem, 2rem);
-}
-.reveal_anim2{
+
+.reveal_anim1,.reveal_anim2,.reveal_anim3{
     opacity: 0;
     transition: all .5s ease-in-out 200ms;
-    transform: translate(0rem,-5rem);
+}
+.reveal_anim1{
+    transform: translate(-.4rem, .4rem);
+}
+.reveal_anim2{
+    transform: translate(0rem,-.6rem);
 }
 .reveal_anim3{
-    opacity: 0;
-    transform: translate(0rem, 4rem);
-    transition: all .7s ease-in-out 200ms;
+    transform: translate(0rem, .6rem);
 }
 
 .show{
@@ -91,7 +90,6 @@ body{
     height: 22rem;
     width: 22rem;
     padding: 1rem;
-    animation: logo 3s linear -300ms;
     border: 20px solid rgba(246, 243, 237, 0.16);
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.400),
     8px 5px 5px rgba(0, 0, 0, 0.405),
@@ -99,33 +97,11 @@ body{
     inset 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-.logo_anim{
-    opacity: 90%;
-    height: 20rem;
-    padding: .5rem;
-    transform: rotate(360deg);
-    border-radius: 3rem;
-    width:20rem ;
-    border: .5rem solid rgba(176, 214, 118, .290);
-    transition: .9s ease-in-out 600ms;
-    box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.604),
-    15px 10px 10px rgba(0, 0, 0, 0.405),
-    inset -1px -1px 5px rgb(255, 255, 255,.2),
-    inset 55px 40px 10px rgba(0, 0, 0, 0.5);
-}
-
 
 .personal_logo3{
     display: none;
 }
 
-@keyframes logo {
-    0%{transform: translateY(-35rem); opacity: 0;}
-    50%{transform: translateY(-5rem); opacity: 50%;}
-    100%{transform: translateY(0rem); opacity: 90%;}
-    
-    
-}
 
 #center_name, #center_name2{
     display: none;
@@ -420,7 +396,8 @@ nav a:hover{
 }
 
     
-.hola_btn_selected, .hello_btn_selected, .en_language_selection{
+/* .hola_btn_selected, .hello_btn_selected, .en_language_selection*/
+.btn_selected{
     color: rgba(175, 214, 118, .990);
     border-top: 4px solid rgba(255, 255, 255, 0.246);
     border-radius: .1rem;

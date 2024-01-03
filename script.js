@@ -1,6 +1,6 @@
 
 // ======= PAGE SCROLL INTO EFFECT =======
-// ======= NAV DIRECTORY(WHEN CLICKING NAV LINK, TRIGGERS THE AUTOMATIC SCROLL TO THAT SPECIFIC SECTION (OR DIV)) ========
+// ======= NAV DIRECTORY(WHEN CLICKING NAV LINK, TRIGGERS THE AUTOMATIC SCROLL TO SPECIFIC SECTION (DIV)) ========
 
 
     function scrollHome(){
@@ -9,7 +9,6 @@
 
     function scrollAbout(){
     about = document.getElementById('about').scrollIntoView(); 
-    
 }
 
 function scrollTechnologies(){
@@ -19,15 +18,19 @@ function scrollProjects(){
     projects = document.getElementById('projects').scrollIntoView(); 
 }
 function scrollContact(){
-    contact = document.getElementById('contact').scrollIntoView(); 
+    contact = document.getElementById('contact').scrollIntoView();
 }
 
 // ===============================================================================
+
+
+// ============================================================
+
 // ======================== ABOUT LANGUAGE SELECTION FUNCTION ====================
 const about_p1 = document.getElementById("about_first_paragraph");
 const about_p2 = document.getElementById("about_second_paragraph");
 const hello_selection_btn = document.querySelector(".en_language_selection");
-const hola_selection_btn = document.getElementById("es_language_selection");
+const hola_selection_btn = document.querySelector(".es_language_selection");
 const thingsIlikeToDo = document.querySelector(".things_I_like_to_do");
 const more_info_title = document.querySelector(".more_info_title");
 const goals_title = document.getElementById("goals_title");
@@ -97,10 +100,12 @@ function esLanguage(){
     contact_title.innerText = "Contacto";
 
     // ================ BTN SELECTION COLOR ==========================
-    hola_selection_btn.classList.add("hola_btn_selected");
-    hello_selection_btn.classList.remove("hello_btn_selected");
-    hello_selection_btn.style.color = "rgb(246, 243, 237)";
-    hello_selection_btn.style.border = "none";
+    // hola_selection_btn.classList.add("btn_selected");
+    //  hello_selection_btn.classList.remove("btn_selected");
+    // hello_selection_btn.style.color = "rgb(246, 243, 237)";
+    //  hola_selection_btn.style.color ="rgba(175, 214, 118, .990)";
+    // hello_selection_btn.style.border = "none";
+    // hola_selection_btn.style.borderTop = "6px solid rgba(255,255,0.246)";
 
     /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
     coming_soon_msg.innerText = "Pronto";
@@ -110,6 +115,15 @@ function esLanguage(){
 
 
 function enLanguage(){
+
+
+        // ================ BTN SELECTION COLOR ==============
+        // hello_selection_btn.classList.add("btn_selected");
+        // hola_selection_btn.classList.remove("btn_selected");
+        // hola_selection_btn.style.borderTop = "none";
+        // hola_selection_btn.style.color = "rbga(255,255,0.246)";
+        // hello_selection_btn.style.borderTop= "6px solid rgba(255, 255, 255, 0.246)";
+    
     about_p1.innerText = "I am a Software Developer that wants to make a difference helping customers evolve in the digital industry. There's something about having the power of creating and building things to help myself and others that has become a 'WAY OF LIFE' for me. ";
 
     thingsIlikeToDo.innerText = "Things I like to do";
@@ -159,31 +173,10 @@ function enLanguage(){
 
 
 
-    // ================ BTN SELECTION COLOR ==============
-    hello_selection_btn.classList.add("hello_btn_selected");
-    hola_selection_btn.classList.remove("hola_btn_selected");
-    hello_selection_btn.style.color = "rgba(175, 214, 118, .990)";
-    hello_selection_btn.style.borderTop= "6px solid rgba(255, 255, 255, 0.246)";
 
 }
 
 // ===============================================================================
-
-
-
-
-// =========== MOBILE LOGO ONCLICK ANIM =======================
-const logoImg = document.querySelector("#personal_logo_mobile");
-function logoAnim(element){
-    element.classList.add('logoAnim');
-    logoImg.src = "./imgs/profile_pic/2.png";
-}
-
-
-
-// ============================================================
-
-
 
 
 // ==================  SCROLL REVEAL ANIM BY SECTIONS =================
