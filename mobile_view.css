@@ -403,7 +403,6 @@ nav a:hover{
     border-radius: .1rem;
     transition: 1s ease-in-out;
 }
-
 /* ====================================================================== */
 
 
@@ -476,13 +475,11 @@ nav a:hover{
 
 /* ==================== TECHNOLOGIES SECTION ===================== */
 .page_3{
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
 
 .technologies_title{
-    margin-top: 6rem;
     margin-bottom: -1rem;
     text-align: center;
     font-size: 2.5rem;
@@ -525,7 +522,59 @@ nav a:hover{
 
 }
 
-#project_3 .project_selection,
+#project_3{
+    filter: blur(1.5px);
+}
+.loading_cir_container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 6rem;
+    z-index: 10;
+    width: 100svw;
+    height: 10svh;
+}
+.loading_cir{
+    background-color: rgb(246, 243, 237);
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.5);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+}
+.cir1{
+    animation:  loading_cir1 .9s  linear infinite ;
+}
+.cir2{
+    animation: loading_cir2 .9s linear infinite;
+}
+.cir3{
+    animation: loading_cir3 .9s linear infinite;
+}
+@keyframes loading_cir1 {
+    0%{opacity: 1 ;}
+    25%{opacity: .5;}
+    50%{opacity: 0;}
+    75%{opacity: .5;}
+    100%{opacity: 1;}
+}
+@keyframes loading_cir2 {
+    0%{opacity: .5 ;}
+    25%{opacity: 1;}
+    50%{opacity: .5;}
+    75%{opacity: 0;}
+    100%{opacity: .5;}
+}
+@keyframes loading_cir3 {
+    0%{opacity: 0 ;}
+    25%{opacity: .5;}
+    50%{opacity: 1;}
+    75%{opacity: .5;}
+    100%{opacity: 0;}
+}
+
 #project_4 .project_selection,
 #project_4 .project_img,
 #project_5 .project_selection,

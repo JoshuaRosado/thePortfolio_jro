@@ -46,10 +46,10 @@ const about_btn = document.getElementById("about_btn");
 const technologies_btn = document.getElementById("technologies_btn");
 const projects_btn = document.getElementById("projects_btn");
 const contact_btn = document.getElementById("contact_btn");
-const about_btn_laptopView = document.getElementById("about_btn_laptopView");
-const projects_btn_laptopView = document.getElementById("project_btn_laptopView");
-const technologies_btn_laptopView = document.getElementById("technologies_btn_laptopView");
-const contact_btn_laptopView = document.getElementById("contact_btn_laptopView");
+const about_btn_laptopView = document.getElementById("about_btn_laptop_view");
+const projects_btn_laptopView = document.getElementById("project_btn_laptop_view");
+const technologies_btn_laptopView = document.getElementById("technologies_btn_laptop_view");
+const contact_btn_laptopView = document.getElementById("contact_btn_laptop_view");
 const welcome = document.querySelector(".name_logo");
 const tech_title = document.querySelector(".technologies_title");
 const projects_title = document.querySelector(".projects_title");
@@ -100,26 +100,23 @@ function esLanguage(){
     contact_title.innerText = "Contacto";
 
     // ================ BTN SELECTION COLOR ==========================
-    // hola_selection_btn.classList.add("btn_selected");
-    //  hello_selection_btn.classList.remove("btn_selected");
+    hola_selection_btn.classList.add("btn_selected");
+    hello_selection_btn.classList.remove("btn_selected");
     // hello_selection_btn.style.color = "rgb(246, 243, 237)";
     //  hola_selection_btn.style.color ="rgba(175, 214, 118, .990)";
     // hello_selection_btn.style.border = "none";
-    // hola_selection_btn.style.borderTop = "6px solid rgba(255,255,0.246)";
+    // hola_selection_btn.style.borderTop = "6px solid rgba(175, 214, 118, .990)";
 
     /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
     coming_soon_msg.innerText = "Pronto";
 }
     
-
-
-
 function enLanguage(){
 
 
         // ================ BTN SELECTION COLOR ==============
-        // hello_selection_btn.classList.add("btn_selected");
-        // hola_selection_btn.classList.remove("btn_selected");
+        hello_selection_btn.classList.add("btn_selected");
+        hola_selection_btn.classList.remove("btn_selected");
         // hola_selection_btn.style.borderTop = "none";
         // hola_selection_btn.style.color = "rbga(255,255,0.246)";
         // hello_selection_btn.style.borderTop= "6px solid rgba(255, 255, 255, 0.246)";

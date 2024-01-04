@@ -395,7 +395,6 @@
     }
     .projects_area{
         display: flex;
-        /* margin-right: 5rem; */
         border: 10px solid rgb(246, 243, 237);
         height: 35rem;
         width: 35rem;
@@ -446,16 +445,24 @@
         filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
         
     }
-    .projectName{
-        font-size: 3rem;
+    .project_name{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
     }
     .project_info_p{
         font-size: 1rem;
     }
     .project_selection_a{
         font-size: 1.2rem;
+        padding: 0rem .5rem;
+    }
+
+    .project_view_options{
+        width: 10rem;
+
     }
     .project_selection{
+        width:15rem;
         padding: 1rem;
         border-radius: 20px;
     }
