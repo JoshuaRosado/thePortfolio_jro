@@ -234,7 +234,7 @@
         font-size: 3rem;
         position: absolute;
         top: 101rem;
-        left: 62rem;
+        left: 63rem;
     }
     .extra_info_toggle_label::before{
         content: "^";
@@ -388,6 +388,18 @@
         justify-content:center;
         align-items: center;
     }
+
+    .coming_soon_msg{
+        color: rgb(246, 243, 237);
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        position:absolute ;
+        left: 140.5rem;
+        width: 20rem;
+        top: 28rem;
+        font-size: 1.5rem;
+        z-index: 40;
+    }
+
     .projects_area{
         display: flex;
         border: 10px solid rgb(246, 243, 237);
@@ -441,7 +453,7 @@
         
     }
     .project_name{
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     .project_info_p{
@@ -458,7 +470,7 @@
     }
     .project_selection{
         width:15rem;
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: 20px;
     }
     .project_img{
