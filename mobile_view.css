@@ -390,18 +390,17 @@ nav a:hover{
     margin-top: -1.5rem;
     font-size: .8rem;
 }
-.en_language_selection, #es_language_selection{
+.en_language_selection, .es_language_selection{
     cursor: pointer;
+    transition: 1s ease-in-out;
+    padding-top: 3rem ;
 
 }
-
-    
-/* .hola_btn_selected, .hello_btn_selected, .en_language_selection*/
 .btn_selected{
     color: rgba(175, 214, 118, .990);
-    border-top: 4px solid rgba(255, 255, 255, 0.246);
-    border-radius: .1rem;
-    transition: 1s ease-in-out;
+    border-top: 4px solid rgba(255, 255, 255, 0.2);
+    border-radius: .4rem;
+    transition: border-top 1s ease-in-out;
 }
 /* ====================================================================== */
 
@@ -523,7 +522,7 @@ nav a:hover{
 }
 
 #project_3{
-    filter: blur(1.5px);
+    filter: blur(.9px);
 }
 .loading_cir_container{
     position: absolute;

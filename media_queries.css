@@ -90,6 +90,12 @@
     .projects_area{
         margin: 0rem 4rem;
     }
+    .loading_cir_container{
+        padding: 0rem 6rem;
+        z-index: 10;
+        width: 60svw;
+        height: 10svh;
+    }
 }
 
 

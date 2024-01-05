@@ -104,6 +104,7 @@
         font-size: 1.5rem;
     }
 
+
     
     .nav_links{
         cursor: pointer;
@@ -133,8 +134,8 @@
     }
     .personal_logo_container_center_row{
         display: flex;
-        height: 67%;
-        width: 65%;
+        height: 60svh;
+        width:70svw;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
@@ -149,8 +150,8 @@
         border-radius: 20rem;
         border: 1rem solid rgba(255, 255, 255, 0.364);
         padding: 1rem;
-        height: 35rem;
-        width: 35rem;
+        height: 32rem;
+        width: 32rem;
         cursor: pointer;
         transition: 2s ease-in-out 1000ms;
     }
@@ -180,15 +181,15 @@
             align-items: center;
             justify-content: center;
             z-index: 0;
-            border: 10px inset rgba(246, 243, 237, 0.923);
+            border: 10px solid rgba(246, 243, 237, 0.923);
             box-shadow: 15px 15px 50px 1px rgba(0, 0, 0, 0.306),
             2px 3px 2px 2px rgba(255, 255, 255, 0.258),
             inset -1px -1px 5px rgba(234, 222, 222, 0.2),
             inset 15px 15px 30px rgba(0, 0, 0, 0.284);
-            backdrop-filter: blur(2px);
-            -webkit-backdrop-filter: blur(2px);
-            background-color: rgba(246, 243, 237, 0.055);
-            height:6rem;
+            backdrop-filter: blur(0px);
+            -webkit-backdrop-filter: blur(0px);
+            background-color: rgba(246, 243, 237, 0.020);
+            height:5rem;
         }
         /* ====== Blank Section between glass windows ===== */
         .blank_section{
@@ -233,7 +234,7 @@
         font-size: 3rem;
         position: absolute;
         top: 101rem;
-        left: 65rem;
+        left: 62rem;
     }
     .extra_info_toggle_label::before{
         content: "^";
@@ -267,19 +268,13 @@
         margin: 2rem 16.5rem 3rem;
     }
 
-    .en_language_selection, #es_language_selection{
+    .en_language_selection, .es_language_selection{
         font-size: 1.8rem;
         padding: 0rem .5rem;
 
     }
 
         
-    .hola_btn_selected, .hello_btn_selected, .en_language_selection{
-        color: rgba(175, 214, 118, .990);
-        border-top: 6px solid rgba(255, 255, 255, 0.246);
-        border-radius: .1rem;
-        transition: 1s ease-in-out;
-}
     .container_about{
         display: flex;
         flex-direction: row;
@@ -474,6 +469,10 @@
     .swipe_indicator{
         font-size: 1rem;
         animation: swipe 5s linear infinite;
+    }
+
+    .loading_cir_container{
+        width: 45svw;
     }
 
     @keyframes swipe {
