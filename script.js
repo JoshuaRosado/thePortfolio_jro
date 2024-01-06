@@ -108,7 +108,7 @@ function esLanguage(){
     // hola_selection_btn.style.borderTop = "6px solid rgba(175, 214, 118, .990)";
 
     /// ======================  COMING SOON MSG - PROJECTS SECTION =======================================
-    coming_soon_msg.innerText = "Pronto";
+    coming_soon_msg.innerText = "En Proceso";
 }
     
 function enLanguage(){
